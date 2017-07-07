@@ -1,0 +1,361 @@
+===================================
+Since Mon Jun 26 17:35:44 UTC 2017
+===================================
+
+
+   * android/
+6c8d659 manifest: android-7.1.2_r17 -> android-7.1.2_r24
+
+   * build/
+644d84d Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * device/zuk/z2_plus/
+c84b6f4 gps.conf: use HTTPS for XTRA downloads
+bb0eabe Update gps config and hal
+4c7f642 Merge pull request #107 from wzv5/patch-1
+
+   * external/boringssl/
+c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/skia/
+7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/stagefright-plugins/
+931ae6b FFmpegExtractor: Fix "supported" typo in logs
+
+   * frameworks/av/
+9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * frameworks/base/
+bf088b8 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * frameworks/native/
+f83381f Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+   * hardware/qcom/fm/
+2e20c17 Automatic translation import
+
+   * hardware/ti/omap4/
+030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+   * kernel/zuk/msm8996/
+a0987fe kernel: Fix potential refcount leak in su check
+88804d6 gt9xx: Fix proximity check over dt2w
+
+   * libcore/
+30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * lineage/cve/
+ee8d2a3 ContextMenu: let the selector be a DOM element
+
+   * lineage/jenkins/
+a5c1264 hudson: Disable w7
+
+   * lineage/slackbot/
+21fd123 poll: get a default value if there's nothing in the db yet
+
+   * lineage/updater/
+2845639 Regenerate device dependency mappings
+
+   * lineage/website/
+9a7e92a Changelog 12
+
+   * lineage/wiki/
+fa988bc devices: Add Shield Android TV (foster)
+
+   * packages/apps/AudioFX/
+efb0b87 Automatic translation import
+
+   * packages/apps/CMParts/
+9be3492 Automatic translation import
+
+   * packages/apps/CMUpdater/
+a72cc45 Automatic translation import
+
+   * packages/apps/Camera2/
+2ca70c9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+49ba52e Automatic translation import
+
+   * packages/apps/Contacts/
+0311d54 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+c141c1f Automatic translation import
+
+   * packages/apps/DeskClock/
+5fef2c6 Automatic translation import
+
+   * packages/apps/Dialer/
+ebaed92 Automatic translation import
+
+   * packages/apps/Eleven/
+778a70f Automatic translation import
+
+   * packages/apps/FlipFlap/
+1b0fc81 Automatic translation import
+
+   * packages/apps/Gallery2/
+0b08d5d Automatic translation import
+
+   * packages/apps/Jelly/
+fa0b42a Jelly: Don't save form data in incognito mode
+
+   * packages/apps/LockClock/
+9f73e91 Automatic translation import
+
+   * packages/apps/Messaging/
+d1e7aec Messaging: Don't crash on unsupported shared content type
+
+   * packages/apps/PhoneCommon/
+d7bb21c Automatic translation import
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/apps/Recorder/
+07f7017 Automatic translation import
+
+   * packages/apps/Settings/
+eaf55d5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/apps/SetupWizard/
+3ff607b Automatic translation import
+
+   * packages/apps/Snap/
+a7eb8d6 Automatic translation import
+
+   * packages/apps/Terminal/
+7c34511 Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/MediaProvider/
+03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/WeatherProvider/
+d5ebc76 Automatic translation import
+
+   * packages/resources/devicesettings/
+bc9d3c1 Automatic translation import
+
+   * packages/services/Telephony/
+282384c Automatic translation import
+
+   * system/sepolicy/
+e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * vendor/cm/
+ff7a5e4 sensitive_pn: Enter full list of Indian MCC codes
+
+   * vendor/cmsdk/
+497a8e8 Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+db419bd Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+fb40ce0 Automatic translation import
+
+   * vendor/zuk/z2_plus/
+15c5ac1 Update GPS blobs
+
+===================================
+Since Mon Jun 12 14:51:51 UTC 2017
+===================================
+
+
+   * device/qcom/common/
+5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+   * device/zuk/z2_plus/
+172fdf1 Update button_settings.xml
+
+   * hardware/qcom/audio-caf/msm8996/
+074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * lineage/mirror/
+6ccc3bc Updated to 22-Jun-2017 21:18:33 UTC
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/CMBugReport/
+2a50a65 Automatic translation import
+
+   * packages/apps/Calendar/
+ca094f3 Automatic translation import
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/FMRadio/
+900759c Automatic translation import
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+   * packages/apps/Trebuchet/
+8b8de5f Trebuchet: Rename settings provider
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/services/Telecomm/
+cae05ab SensitivePhoneNumbers: Handle lists of MCC codes
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+   * system/core/
+fdea661 init: Run restorecon_recursive asynchronously
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+
+===================================
+Since Sat Jun  3 20:31:05 UTC 2017
+===================================
+
+
+   * external/chromium-webview/
+2909904 Update webviews
+
+   * hardware/qcom/display-caf/msm8996/
+92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
+
+   * lineage/contributors-cloud-generator/
+db271de Bump DEFAULT_SIZE to 1896
+
+   * lineage/scripts/
+5c432dc maintainers: Warn if device uses unofficial TWRP
+
+   * packages/apps/Email/
+ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
+
+   * vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+3fe4133 Add back key to actionbar
+
+===================================
+Since Fri May 26 12:47:53 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+57b88e3 Use sdclang for building
+ad15ff6 sepolicy: delete leftover rules for time_daemon
+
+   * hardware/qcom/display-caf/msm8960/
+d222af7 hwc: return correct color format string while layer dump
+
+   * hardware/qcom/media-caf/msm8916/
+d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
+   * lineage/ansible/
+687e415 [2/2] Migrate updater to python package
+
+   * packages/apps/EmergencyInfo/
+3ea2db7 Automatic translation import
+
+   * packages/apps/ExactCalculator/
+16e9688 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+4b787a2 Automatic translation import
+
+   * packages/apps/Stk/
+f9f50a5 Do not display toast if alpha text is null.
+
+   * packages/apps/Tag/
+1dc7751 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+e353ae2 Properly close body InputStreams.
+
+   * packages/services/LiveLockScreenService/
+15d4966 Automatic translation import
+
+   * vendor/qcom/opensource/cryptfs_hw/
+da6e595 cryptfs_hw: Fix stack out of bound issue
+
+===================================
+Since Fri May 19 08:56:08 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+56e5274 z2_plus: Enable miracast
+fa702c5 Replace Qualcomm time daemon with sony timekeep
+198baf4 Enforce vendor tree presence
+
+   * external/dng_sdk/
+d8f1ede Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * external/ffmpeg/
+1bd02b0 Merge remote-tracking branch 'ffmpeg/release/3.0' into HEAD
+
+   * external/libavc/
+aa861e2 Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * external/libgdx/
+f331cc3 Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * external/libhevc/
+aa40e72 Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * external/libmpeg2/
+6e2c614 Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * external/sonivox/
+2b8b07d Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * external/tremolo/
+8bb2a0c Merge cherrypicks of [2307556, 2307630, 2307631, 2307557, 2307632, 2307656, 2307743, 2307635, 2307799, 2307577, 2307800, 2307707, 2307803, 2307781, 2307773, 2307637, 2307804, 2307618, 2307734, 2307708, 2307805, 2307709, 2307806, 2307820, 2307746, 2307774, 2307839, 2307735, 2307782, 2307808, 2307840, 2307738, 2307783, 2307749, 2307775, 2307860, 2307899, 2307822, 2307823, 2307880, 2307778, 2307825, 2307882, 2307787, 2307919, 2307844, 2307905, 2307883, 2307829, 2307907, 2307832, 2307944, 2307945, 2307911] into nyc-mr2-pixel-monthly-release
+
+   * lineage/stats/
+2844cb1 Revert "Include official count on main page"
+
+   * vendor/zuk/z2_plus/
+0b506fe Remove Qualcomm time daemon, we are using sony timekeep now
+
