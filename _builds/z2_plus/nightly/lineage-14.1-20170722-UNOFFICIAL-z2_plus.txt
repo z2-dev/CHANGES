@@ -1,0 +1,325 @@
+===================================
+Since Fri Jul 14 16:57:44 UTC 2017
+===================================
+
+
+   * android/
+7e460b7 Remove ahbottomnavigation
+
+   * device/zuk/z2_plus/
+8c420e0 msm8996-common: data-ipa-cfg-mgr: Disable DEBUG for userdebug builds
+afc5ae1 msm8996-common: data-ipa-cfg-mgr: Remove verbose cflag
+bc98426 Remove zRAM stuff.
+e443f87 z2_plus: 2nd CPU kryo optimization
+8c38d08 Enable powersave_bias on both clusters.
+4561079 noatime implies nodiratime.
+
+   * frameworks/base/
+af06f11 BootReceiver: check console-ramoops-0
+
+   * frameworks/native/
+d461e7a Surface: Use async lock/unlock in copyBlt
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/fm/
+165ef42 FM: Use some sane colors
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+241de94 Import camera driver from ZUI 2.5.415.
+b88aa01 dts: Set 133MHz as gpu idle freq
+
+   * lineage/cve/
+b68f3e5 Regenerate kernel->device mappings
+
+   * lineage/jenkins/
+cfb84b4 Re-enable LG G2 builds
+
+   * lineage/mirror/
+2f067c7 Updated to 18-Jul-2017 20:31:00 UTC
+
+   * lineage/stats/
+8b0688e Force unicode strings
+
+   * lineage/updater/
+d26265e changelog: Don't crash trying to parse change labels
+
+   * lineage/wiki/
+605a797 wiki: Standardize the templates
+
+   * packages/apps/DeskClock/
+3e8d52b Use density independent units for the timer digits for sw360dp
+
+   * packages/apps/Gallery2/
+d9f1451 Gallery: Fix potential crash
+
+   * packages/apps/Jelly/
+b8270d7 Jelly: Allow to display pages in full screen mode
+
+   * vendor/cm/
+1c9c5a3 repopick: Add 'reset' option
+
+===================================
+Since Fri Jul  7 19:03:17 UTC 2017
+===================================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * device/zuk/z2_plus/
+cbd5df3 extract-files: fix device/vendor (wrong way round)
+a523434 Pin qti-telephony-common.jar
+4eb3343 Unify proprietary files into a single txt
+0b460f1 Update extract-files.sh to the latest template
+
+   * lineage/crowdin/
+63d845b crowdin: Move huashan to cm-14.1 branch for devicesettings
+
+   * packages/apps/AudioFX/
+4273aee Automatic translation import
+
+   * packages/apps/CMParts/
+375d943 Regenerate contributors cloud
+
+   * packages/apps/CMUpdater/
+4551ad8 Automatic translation import
+
+   * packages/apps/LockClock/
+e0810ea Automatic translation import
+
+   * packages/apps/Settings/
+29aa061 Bring back some physical keyboard settings
+
+   * packages/apps/SetupWizard/
+50da943 Automatic translation import
+
+   * packages/apps/Snap/
+5c51d47 Revert some permissions related changes
+
+   * packages/apps/Terminal/
+2e009e8 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+37f067f Automatic translation import
+
+   * system/core/
+09daba9 logcat: Add missing newline to read failure
+
+   * vendor/cmsdk/
+464979d Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+8a9c801 Automatic translation import
+
+   * vendor/zuk/z2_plus/
+165f9f3 Regenerate makefiles
+
+===================================
+Since Mon Jun 26 17:35:44 UTC 2017
+===================================
+
+
+   * build/
+c21d567 Squashed revert of TARGET_UNIFIED_DEVICE
+
+   * device/zuk/z2_plus/
+c84b6f4 gps.conf: use HTTPS for XTRA downloads
+bb0eabe Update gps config and hal
+4c7f642 Merge pull request #107 from wzv5/patch-1
+
+   * external/boringssl/
+c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/skia/
+7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/stagefright-plugins/
+931ae6b FFmpegExtractor: Fix "supported" typo in logs
+
+   * frameworks/av/
+9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+   * hardware/ti/omap4/
+030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+   * kernel/zuk/msm8996/
+a0987fe kernel: Fix potential refcount leak in su check
+88804d6 gt9xx: Fix proximity check over dt2w
+
+   * libcore/
+30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * lineage/slackbot/
+21fd123 poll: get a default value if there's nothing in the db yet
+
+   * lineage/website/
+9a7e92a Changelog 12
+
+   * packages/apps/Camera2/
+2ca70c9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+49ba52e Automatic translation import
+
+   * packages/apps/Contacts/
+0311d54 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+c141c1f Automatic translation import
+
+   * packages/apps/Dialer/
+ebaed92 Automatic translation import
+
+   * packages/apps/Eleven/
+778a70f Automatic translation import
+
+   * packages/apps/FlipFlap/
+1b0fc81 Automatic translation import
+
+   * packages/apps/Messaging/
+d1e7aec Messaging: Don't crash on unsupported shared content type
+
+   * packages/apps/PhoneCommon/
+d7bb21c Automatic translation import
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/apps/Recorder/
+07f7017 Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/MediaProvider/
+03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/resources/devicesettings/
+bc9d3c1 Automatic translation import
+
+   * packages/services/Telecomm/
+021cadd SensitivePhoneNumbers: Fix number comparison
+
+   * packages/services/Telephony/
+282384c Automatic translation import
+
+   * system/sepolicy/
+e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+db419bd Automatic translation import
+
+   * vendor/zuk/z2_plus/
+15c5ac1 Update GPS blobs
+
+===================================
+Since Mon Jun 12 14:51:51 UTC 2017
+===================================
+
+
+   * device/qcom/common/
+5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+   * device/zuk/z2_plus/
+172fdf1 Update button_settings.xml
+
+   * hardware/qcom/audio/default/
+d52eb11 hal: add missing incall recording usecases and check
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/CMBugReport/
+2a50a65 Automatic translation import
+
+   * packages/apps/Calendar/
+ca094f3 Automatic translation import
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/FMRadio/
+900759c Automatic translation import
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+   * packages/apps/Trebuchet/
+8b8de5f Trebuchet: Rename settings provider
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+
+===================================
+Since Sat Jun  3 20:31:05 UTC 2017
+===================================
+
+
+   * external/chromium-webview/
+2909904 Update webviews
+
+   * lineage/contributors-cloud-generator/
+db271de Bump DEFAULT_SIZE to 1896
+
+   * lineage/scripts/
+5c432dc maintainers: Warn if device uses unofficial TWRP
+
+   * packages/apps/Email/
+ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
+
+   * vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+3fe4133 Add back key to actionbar
+
