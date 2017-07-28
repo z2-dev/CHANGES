@@ -1,0 +1,340 @@
+===================================
+Since Sat Jul 22 14:13:05 UTC 2017
+===================================
+
+
+   * android/
+31a4f41 cm.xml: sync caf 8998 hals
+
+   * device/zuk/z2_plus/
+a41b318 Revert "Enable powersave_bias on both clusters."
+
+   * external/chromium-webview/
+e205b2a Update webview
+
+   * frameworks/base/
+04cb102 Automatic translation import
+
+   * hardware/qcom/fm/
+7e027bc Automatic translation import
+
+   * lineage/cve/
+a173cff Regenerate kernel->device mappings
+
+   * lineage/mirror/
+54cda6c Updated to 25-Jul-2017 20:31:01 UTC
+
+   * lineage/updater/
+241b60e updater: Get the STATUS_URL config safely
+
+   * lineage/wiki/
+1d515f6 device: Add Z9Max (nx512j)
+
+   * packages/apps/AudioFX/
+530b16b Automatic translation import
+
+   * packages/apps/Bluetooth/
+2cf33d5 Automatic translation import
+
+   * packages/apps/CMBugReport/
+11a2d62 Automatic translation import
+
+   * packages/apps/CMParts/
+6417764 Automatic translation import
+
+   * packages/apps/CMUpdater/
+9e5abe9 Automatic translation import
+
+   * packages/apps/Calendar/
+c7912b5 Automatic translation import
+
+   * packages/apps/Camera2/
+c8ce5ef Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+19f777a Automatic translation import
+
+   * packages/apps/Contacts/
+7a1dc0c Automatic translation import
+
+   * packages/apps/ContactsCommon/
+fe66a97 Allow to edit the SIP field of contacts stored locally
+
+   * packages/apps/DeskClock/
+ffd4233 Automatic translation import
+
+   * packages/apps/Dialer/
+f0fd78e Dialer: Fix compilation warnings
+
+   * packages/apps/Eleven/
+adeb6e5 Automatic translation import
+
+   * packages/apps/Email/
+7bf040a Automatic translation import
+
+   * packages/apps/Exchange/
+b17bee6 Automatic translation import
+
+   * packages/apps/FlipFlap/
+0e531ea Automatic translation import
+
+   * packages/apps/Gallery2/
+dd5d886 Automatic translation import
+
+   * packages/apps/Jelly/
+8214795 Automatic translation import
+
+   * packages/apps/LockClock/
+7a0cdc8 Automatic translation import
+
+   * packages/apps/Messaging/
+0b2d2eb Automatic translation import
+
+   * packages/apps/PhoneCommon/
+700ded3 Automatic translation import
+
+   * packages/apps/Recorder/
+5c6ba77 Automatic translation import
+
+   * packages/apps/Settings/
+04247c6 Automatic translation import
+
+   * packages/apps/SetupWizard/
+d261c7a SetupWizard: Don't show ChooseDataSimActivity on single sim devices
+
+   * packages/apps/Snap/
+bbb6ee1 Revert "SnapdragonCamera: Adding PRIVILEGED true"
+
+   * packages/apps/Terminal/
+9f5d391 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+dcc2f12 Automatic translation import
+
+   * packages/apps/TvSettings/
+48bf259 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+a5da26d Automatic translation import
+
+   * packages/providers/WeatherProvider/
+ba9f78f Automatic translation import
+
+   * packages/resources/devicesettings/
+1550893 Automatic translation import
+
+   * packages/services/Telephony/
+947bfb6 Automatic translation import
+
+   * system/netd/
+b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+   * vendor/cm/
+beb05c8 config: Set some default TWRP flags
+
+   * vendor/cmsdk/
+1319a28 Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+53f0e73 Automatic translation import
+
+===================================
+Since Fri Jul 14 16:57:44 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+8c420e0 msm8996-common: data-ipa-cfg-mgr: Disable DEBUG for userdebug builds
+afc5ae1 msm8996-common: data-ipa-cfg-mgr: Remove verbose cflag
+bc98426 Remove zRAM stuff.
+e443f87 z2_plus: 2nd CPU kryo optimization
+8c38d08 Enable powersave_bias on both clusters.
+4561079 noatime implies nodiratime.
+
+   * frameworks/native/
+d461e7a Surface: Use async lock/unlock in copyBlt
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+241de94 Import camera driver from ZUI 2.5.415.
+b88aa01 dts: Set 133MHz as gpu idle freq
+
+   * lineage/jenkins/
+698a8a1 hudson: Add nubia Z9Max (nx512j)
+
+   * lineage/stats/
+8b0688e Force unicode strings
+
+===================================
+Since Fri Jul  7 19:03:17 UTC 2017
+===================================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * device/zuk/z2_plus/
+cbd5df3 extract-files: fix device/vendor (wrong way round)
+a523434 Pin qti-telephony-common.jar
+4eb3343 Unify proprietary files into a single txt
+0b460f1 Update extract-files.sh to the latest template
+
+   * hardware/qcom/audio-caf/msm8998/
+ddedc50 hal: Allow building hardware audio encoders
+
+   * hardware/qcom/display-caf/msm8998/
+7f20a06 Don't build lights module if vendor supplies it
+
+   * hardware/qcom/media-caf/msm8998/
+2784e0e mm-video: Disable proprietary extension
+
+   * lineage/crowdin/
+63d845b crowdin: Move huashan to cm-14.1 branch for devicesettings
+
+   * system/core/
+09daba9 logcat: Add missing newline to read failure
+
+   * vendor/zuk/z2_plus/
+165f9f3 Regenerate makefiles
+
+===================================
+Since Mon Jun 26 17:35:44 UTC 2017
+===================================
+
+
+   * build/
+c21d567 Squashed revert of TARGET_UNIFIED_DEVICE
+
+   * device/zuk/z2_plus/
+c84b6f4 gps.conf: use HTTPS for XTRA downloads
+bb0eabe Update gps config and hal
+4c7f642 Merge pull request #107 from wzv5/patch-1
+
+   * external/boringssl/
+c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/skia/
+7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/stagefright-plugins/
+931ae6b FFmpegExtractor: Fix "supported" typo in logs
+
+   * frameworks/av/
+9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+   * hardware/ti/omap4/
+030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+   * kernel/zuk/msm8996/
+a0987fe kernel: Fix potential refcount leak in su check
+88804d6 gt9xx: Fix proximity check over dt2w
+
+   * libcore/
+30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * lineage/slackbot/
+21fd123 poll: get a default value if there's nothing in the db yet
+
+   * lineage/website/
+9a7e92a Changelog 12
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/MediaProvider/
+03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/services/Telecomm/
+021cadd SensitivePhoneNumbers: Fix number comparison
+
+   * system/sepolicy/
+e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+db419bd Automatic translation import
+
+   * vendor/zuk/z2_plus/
+15c5ac1 Update GPS blobs
+
+===================================
+Since Mon Jun 12 14:51:51 UTC 2017
+===================================
+
+
+   * device/qcom/common/
+5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+   * device/zuk/z2_plus/
+172fdf1 Update button_settings.xml
+
+   * hardware/qcom/audio/default/
+d52eb11 hal: add missing incall recording usecases and check
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/FMRadio/
+900759c Automatic translation import
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+   * packages/apps/Trebuchet/
+8b8de5f Trebuchet: Rename settings provider
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+
