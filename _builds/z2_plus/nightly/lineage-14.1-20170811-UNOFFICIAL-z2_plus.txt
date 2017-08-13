@@ -363,3 +363,1395 @@ db419bd Automatic translation import
    * vendor/zuk/z2_plus/
 15c5ac1 Update GPS blobs
 
+===================================
+Since Fri Aug 11 20:41:38 UTC 2017
+===================================
+
+
+===================================
+Since Fri Jul 28 19:07:05 UTC 2017
+===================================
+
+
+   * android/
+ad2d94d manifest: android-7.1.2_r24 -> android-7.1.2_r29
+
+   * build/
+2929be0 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * device/qcom/sepolicy/
+415717e sepolicy: Add qpnp-smbcharger battery supply contexts
+
+   * device/zuk/z2_plus/
+444889c More updates from ZUI 2.5.412.
+0d5e58b Import thermal-engine from ZUI 2.5.412.
+cdc8fbb There isn't any libNimsWrap.so on ZUI 2.5.412.
+71de95d proprietary-files: Remove some unneeded blobs
+ac5cf4b z2_plus: sepolicy: Actually allow netmgrd to create logs
+32cf49a z2_plus: Drop NET_RAW and NET_ADMIN from qti
+035c632 z2_plus: Remove DAC override permission from netmgrd
+6e95ae7 z2_plus: Grant netmgrd proper unix perms
+12a73a1 z2_plus: rootdir: Enable ZRAM for msm8996 targets
+ffc0ccd BoardConfig: Change defconfig name
+f663033 Add Italian translation for U-Touch settings (#113)
+bc80fd3 Revert "Enable powersave_bias on both clusters."
+56405ff z2_plus: data-ipa-cfg-mgr: Disable DEBUG for userdebug builds
+1a196d8 z2_plus: data-ipa-cfg-mgr: Remove verbose cflag
+
+   * external/skia/
+da4a326 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/av/
+6529b27 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/base/
+d20e022 Automatic translation import
+
+   * frameworks/native/
+99f5e57 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/opt/net/wifi/
+1f8fc74 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/opt/telephony/
+b1a8579 Telephony: Keep preferred SMS Sim
+
+   * hardware/qcom/audio-caf/msm8916/
+7fcca3e Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8937/
+9dbd062 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8952/
+34f4914 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8960/
+e248666 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8974/
+0d8579c Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8994/
+9dcddd7 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8996/
+5b12547 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8998/
+c519e1a Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio/default/
+a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * hardware/qcom/display-caf/apq8084/
+e2f4340 cec: Fix breakage due to API change
+
+   * hardware/qcom/fm/
+dcad703 Automatic translation import
+
+   * hardware/qcom/media-caf/apq8084/
+02e5750 videopp: fix include paths for lineage
+
+   * hardware/qcom/media-caf/msm8916/
+ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8994/
+1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
+
+   * kernel/zuk/msm8996/
+ab30b4a drivers/Kconfig: remove duplicate entry for soc
+71b53e3 ARM64: configs: Disable unneeded functions
+228a7b0 .gitignore: Remove useless lines
+a17fc05 ARM64: configs: enable SECURITY_PERF_EVENTS_RESTRICT
+cd97f97 arm64/configs: Run all RCU threads at RT prio 2
+e69bbde arm64/configs: enable RCU_BOOST
+ae0c0f9 BACKPORT: rcu: Optionally run grace-period kthreads at real-time priority
+a40ead7 BACKPORT: rcu: Unify boost and kthread priorities
+716f401 BACKPORT: rcu: Move RCU_BOOST variable declarations, eliminating #ifdef
+56db5e1 zram: do not use copy_page with non-page aligned address
+70d6894 lib: lz4: fixed zram with lz4 on big endian machines
+a936613f ARM: dts: Import pstore configuration from marlin
+261d9e5 fs/pstore: initialize pmsg from device tree
+d49ad13 FROMLIST: pstore: drop pmsg bounce buffer
+42f2440 fs/pstore: fix compilation warning
+c6144e7 pstore: Fix the ramoops module parameters update
+5003613 fs:pstore:ramoops: config mem from dt
+34fbcbd sched: always use blk_schedule_flush_plug in io_schedule_out
+f449e9b sched: Prevent recursion in io_schedule()
+7ced204 ANDROID: fs: Export vfs_rmdir2
+bd21d76 ANDROID: fs: Export free_fs_struct and set_fs_pwd
+4729857 ARM64: configs: Enable LZ4 for ZRAM
+925f78e fs/exec: fix use after free in execve
+d12d79d defconfig: Misc updates
+008f7eb arm64:configs: Minify defconfigs
+5dde791 configs:z2_plus: add missing value for CONFIG_MSM_POWER
+b982341 configs: remove CONFIG_LOCALVERSION
+7a9737a Remove build.sh
+258688b mm: fix new crash in unmapped_area_topdown()
+fd9475c Allow stack to grow up to address space limit
+30fec7c mm: larger stack guard gap, between vmas
+186c068 UPSTREAM: packet: fix races in fanout_add()
+c40c3a0 selinux: fix off-by-one in setprocattr
+843d4031 ALSA: timer: Fix race between read and ioctl
+65020fc ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT
+c4a2d81 fs/exec.c: account for argv/envp pointers
+8b2479f sctp: validate chunk len before actually using it
+b45a28d USB: digi_acceleport: do sanity checking for the number of ports
+afeb69c USB: mct_u232: add sanity checking in probe
+0b220cd USB: iowarrior: fix oops with malicious USB descriptors
+06b7204 Input: gtco - fix crash on detecting device without endpoints
+bf5a521 ipv4: keep skb->dst around in presence of IP options
+db88332 UPSTREAM: ext4: fix fencepost in s_first_meta_bg validation
+77f405f ext4: fix condition of validate s_first_meta_bg
+8d2289c ping: implement proper locking
+68d908e3 USB: cypress_m8: add endpoint sanity check
+55f4206 drivers: video: Add bounds checking in fb_cmap_to_user
+41129ca pipe: limit the per-user amount of pages allocated in pipes
+7798fdd net: ping: check minimum size on ICMP header length
+5aa5d11 ipv4: Don't do expensive useless work during inetdev destroy.
+cd36186 net: add length argument to skb_copy_and_csum_datagram_iovec
+ebda8d4 sysctl: Drop reference added by grab_header in proc_sys_readdir
+ed11aeb sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+dcfc291 ipv6: Prevent overrun when parsing v6 header options
+72c072f ipv6: fix out of bound writes in __ip6_append_data()
+c18fa2d ipv6/dccp: do not inherit ipv6_mc_list from parent
+9f3aa3d4 ext4: fix deadlock during page writeback
+8aaf70c ext4: fix data exposure after a crash
+18ef628 bpf: don't let ldimm64 leak map addresses on unprivileged
+9ee5be9 dccp/tcp: do not inherit mc_list from parent
+c620952 net/packet: fix overflow in check for tp_reserve
+673bf1b net/packet: fix overflow in check for tp_frame_nr
+3c3ef8f net/packet: fix overflow in check for priv area size
+6502881 ip6_gre: fix ip6gre_err() invalid reads
+7283c60 tty: n_hdlc: get rid of racy n_hdlc.tbuf
+43e6aaa TTY: n_hdlc, fix lockdep false positive
+6e83dd3 mm: Tighten x86 /dev/mem with zeroing reads
+c5244d3b crypto: ahash - Fix EINPROGRESS notification callback
+14b1bfa mm/mempolicy.c: fix error handling in set_mempolicy and mbind.
+38d8789 mm: migrate dirty page without clear_page_dirty_for_io etc
+1d032f7 xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+90e380a scsi: sg: check length passed to SG_NEXT_CMD_LEN
+534fc79 KEYS: Change the name of the dead type to ".dead" to prevent user access
+71c4242 KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings
+9f8cb66 KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings
+5438ad6 sdcardfs: limit stacking depth
+060afc3 BACKPORT: tcp: avoid infinite loop in tcp_splice_read()
+5e51845 sctp: deny peeloff operation on asocs with threads sleeping on it
+2ed8322 irda: Fix lockdep annotations in hashbin_delete().
+5d45586 net/llc: avoid BUG_ON() in skb_orphan()
+8a35b0a sctp: avoid BUG_ON on sctp_wait_for_sndbuf
+a869dd4 perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race
+869be4c ipc/shm: Fix shmat mmap nil-page protection
+37678a0 ext4: validate s_first_meta_bg at mount time
+aebf155 dccp: fix freeing skb too early for IPV6_RECVPKTINFO
+5cac046 tmpfs: clear S_ISGID when setting posix ACLs
+bffa563 netlink: Fix dump skb leak/double free
+f4b1230 sg_write()/bsg_write() is not fit to be called under KERNEL_DS
+502a8cb qcedev: Validate Source and Destination addresses
+2a982ed Revert "With @18712886438(CallMeSuper) kernel header tips and @Dazzworld blobs we can finally use nougat camera blobs"
+baee290 z2_row: Add vibrator driver
+136f875 qcacld-2.0: Update to LA.UM.5.5.r1-05400-8x96.0
+a3a1777 Merge tag 'LA.UM.5.5.r1-05400-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
+b019fbf Merge pull request #2 from davidevinavil/staging/noog-caf-rebase
+28584bc With @18712886438(CallMeSuper) kernel header tips and @Dazzworld blobs we can finally use nougat camera blobs
+6a2078b z2_plus_defconfig: Remove some modules
+9fe8ca8 defconfig: Regenerate with new crypto options enabled
+832627c msm: thermal: Check temperature only if probed
+0951350 Makefile: Silence x.509 warning
+3563257 defconfig: Enable optimized cryptographic algorithms
+f302f98 proc: Remove additional SafetyNet flags from /proc/cmdline
+9514e3a proc: Remove verifiedbootstate flag from /proc/cmdline
+272b630 arm64: irq: remove affinity logging. Makes it hard to use dmesg with this spam
+813a730 qcom: msm-core: uninterruptible wait - you can kiss my arse goodbye
+63b70d1 msm: Use interruptible wait to not affect load average
+0315d35 msm: Use interruptible wait to not affect load average
+4899e9d msm: Fix high load average from uninterruptible waits
+2f319ab Fix compilation
+769b1d1 Fix standalone compiling
+c090f44 Makefile: Use ccache for compilation
+8aa5d8d staging: qcacld-2.0: build with default options
+ee31af9 msm: ipa: fix makefile so 'make clean' does it job
+cc46c12 setlocalversion: Cleanup kernel name
+54de3ac Make hall switch generate lid switch events so that flip covers will work
+c8447b1 cpuidle: don't disable cpuidle when entering suspend
+1ede339 usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs
+d6e7ca7 cpufreq: stats: Fix memory leaks when updating stats table
+d1fbc1c msm: mdss: Don't cache the address of a stack variable in timings init
+487896a soc: qcom: glink: Fix memory leak in driver probe
+0c6e7d3 net: ipc_router: Fix memory leaks when releasing a remote port
+5c0484f ion: adjust system heap pool orders
+459d36f ANDROID: mmc: move to a SCHED_FIFO thread
+af1e711 sched: avoid migrating when softint on tgt cpu should be short
+1947492 sched: avoid scheduling RT threads on cores currently handling softirqs
+d88affe sched/rt: Avoid moving rt task if destination CPU does not run low priority task.
+83fa79f mdss: Fix solid fill unpack pattern
+44ede76 mdss: move to a kthread for vsync_retire_work_handler
+ee86c55 msm: mdss: avoid scheduling pp work during continuous updates
+380351d mdss: Do not wait for kickoff in display commit
+5e0bd1b time: Remove CONFIG_TIMER_STATS
+6c041aa qpnp-smbcharger: Publish charger voltage to the usb psy
+2127933 kernel: Fix potential refcount leak in su check
+d5d2c5a kernel: Only expose su when daemon is running
+258e8c6 UPSTREAM: lz4: fix wrong compress buffer size for 64-bits
+c6a06bb UPSTREAM: zram/zcomp: do not zero out zcomp private pages
+087350d UPSTREAM: zram: pass gfp from zcomp frontend to backend
+7c5690c build.sh: Stop setting the compilation user and host
+89ec4f9 gt9xx: Fix proximity check over dt2w
+f6dc0a0 Reset to clean qpnp-led driver and add "qcom,use-blink" to leds in dtb
+cbe7adc arm64: configs: Set CONFIG_HZ to 100
+1172e00 defconfig: Enable CONFIG_MSM_POWER and CONFIG_MSM_PERFORMANCE_HOTPLUG_ON
+3144b17 z2_row: sound: qdsp6v2: fix undefined reference
+c123b11 fs: add COMPATIBLE_IOCTL(ENABLE_MI2S_CLK) for MI2S_CLK
+96e60fe include: Declare ENABLE_MI2S_CLK
+27f85d6 build.sh: Include the z2_pro support
+832cd3b arch: arm64: configs: Add z2_row_defconfig
+144000a drivers: cclogic: patch usb state after setting no plug
+dfb4b71 Fix don't working touchscreen in AROMA and MultiROM BootUI
+f500402 drivers: gpio: Only modify home status if key is home key
+e1c3f68 drivers: fpc/gpio cleanup
+14b1cbe z2_plus: Fix home button bug
+b6a6110 Fix drop 2% battery
+693329a drivers: power: Do not reboot to EDL in case of kernel panic (the return)
+1b9452b Fix yellow screen mode
+8cc7ad2 Enable kcal by default with kcal_sat = 50
+fa1a0b19 video: mdss: LiveDisplay driver
+4df15e0 msm: mdss: kcal: Add KCAL support for post processing control [v2]
+2fc70f9 z2_plus: Preserve memory on restart
+4c68d60 power: reset: Allow device to preserve memory on restart
+015b4ba removing msm calls to trace_printk
+c0becea mm: swap_ratio: Only call trace_printk() in debug
+354aa53 vfs: Add setattr2 for filesystems with per mount permissions
+0aeae09 vfs: Allow filesystems to access their private mount data
+3f9d20e mnt: Add filesystem private data to mount points
+0d3eb58 vfs: Add permission2 for filesystems with per mount permissions
+8129e71 block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.18.0
+0908a4f block, bfq: add Early Queue Merge (EQM) to BFQ-v7r7 for 3.18.0
+cd79dd4 block: introduce the BFQ-v7r7 I/O sched for 3.18
+131b544 block: cgroups, kconfig, build bits for BFQ-v7r7-3.18
+91a5ccf cpuset: Make cpusets restore on hotplug
+07e9469 cpuset: Add allow_attach hook for cpusets on android.
+707fdec z2_plus_defconfig: Enable CONFIG_MSMB_CAMERA_ZUK
+6d2f190 z2_plus/z2_pro: camera_v2: import zuk camera drivers
+1648a47 z2_plus: Import some headers edit from zuk
+e40c250e qcacld-2.0: Update to LA.UM.5.5.r1-05300-8x96.0
+fd3643d qcacld-2.0: Update to LA.UM.5.5.r1-05100-8x96.0
+fa29aec drivers: staging: Update qcacld-2.0 driver
+bf5e30c qcacld-2.0: Remove obsolete set/reset ssid hotlist
+539d9fe staging: Import LA.UM.5.5.r1-04000-8x96.0 qcacld-2.0 driver
+a4195c4 z2_plus/z2_row: msm: qpnp-haptic: Import zuk edits
+812b526 drivers/video: Import mdss driver from zuk
+35ecbbb z2_plus/z2_row: sound: Import zuk changes
+48b45a0 drivers/usb: Import usb driver from zuk
+e10336b z2_plus: drivers: misc: Add zuk changes
+f09c37a power:qpnp: looks like that disable/enable hvdcp need a new function
+b7614d1 include: add key_nav and gesture
+05bc148 makefile: Add --strip-debug flag
+d4e7cf5 Makefile: Kill use of GCC wrapper
+bf2ef5b drivers: platform: Import changes from zuk
+7b1cfbe Trim kernel to ~9.5 Mb
+a2f64c0 dts: Set 133MHz as gpu idle freq
+71f3988 dts: Add zuk changes
+66e9030 script: fix autoconf.h not found
+289d16b z2_plus: Add defconfig
+aae9796 drivers/soundwire/soundwire.c: a little changes
+e142c81 drivers/rtc: Import changes from zuk
+9247770 z2_plus/z2_row: of: Import zuk changes
+96f04f9 z2_plus/z2_row: Import zuk edits for arch/arm64
+113b35d z2_plus: Import zuk edits for power and thermal
+37b1583 drivers/leds: Import qpnp driver from zuk
+1fceaa0 z2_plus: Import the fingerprint driver
+81d05a0 z2_plus: drivers: soc: Import shenqi_nv
+af5cb4e z2_plus/z2_row: Import zuk input changes
+7459c28 Add building script
+0a5850d f2fs: avoid cpu lockup
+10bd326 f2fs: include seq_file.h for sysfs.c
+6fc3dc2 f2fs: Don't clear SGID when inheriting ACLs
+764925f f2fs: remove extra inode_unlock() in error path
+1b45759 fscrypt: add support for AES-128-CBC
+9287601 fscrypt: inline fscrypt_free_filename()
+ae4a544 f2fs: make more close to v4.13-rc1
+02f32cf f2fs: support plain user/group quota
+6256652 f2fs: avoid deadlock caused by lock order of page and lock_op
+06c1cd2 f2fs: use spin_{,un}lock_irq{save,restore}
+2052138 f2fs: relax migratepage for atomic written page
+57bdde0 f2fs: don't count inode block in in-memory inode.i_blocks
+b4c4288 Revert "f2fs: fix to clean previous mount option when remount_fs"
+1043e23 f2fs: do not set LOST_PINO for renamed dir
+20a6fc2 f2fs: do not set LOST_PINO for newly created dir
+bd0f783 f2fs: skip ->writepages for {mete,node}_inode during recovery
+6660a4dc f2fs: introduce __check_sit_bitmap
+e060c31 f2fs: stop gc/discard thread in prior during umount
+dd339ac f2fs: introduce reserved_blocks in sysfs
+d9ef32d f2fs: avoid redundant f2fs_flush after remount
+2366cc9 f2fs: report # of free inodes more precisely
+168eb346 f2fs: add ioctl to do gc with target block address
+a4138b6 f2fs: don't need to check encrypted inode for partial truncation
+b16cae4 f2fs: measure inode.i_blocks as generic filesystem
+70f6c9a f2fs: set CP_TRIMMED_FLAG correctly
+24aba9c f2fs: require key for truncate(2) of encrypted file
+26b140d f2fs: move sysfs code from super.c to fs/f2fs/sysfs.c
+659a129 f2fs: clean up sysfs codes
+f4c18d9 f2fs: fix wrong error number of fill_super
+19f3012 f2fs: fix to show injection rate in ->show_options
+afa6ea4 f2fs: Fix a return value in case of error in 'f2fs_fill_super'
+beff957 f2fs: use proper variable name
+53b7527 f2fs: fix to avoid panic when encountering corrupt node
+3095771 f2fs: don't track newly allocated nat entry in list
+8c635d8 f2fs: add f2fs_bug_on in __remove_discard_cmd
+cdd5a15 f2fs: introduce __wait_one_discard_bio
+e7cac1f f2fs: dax: fix races between page faults and truncating pages
+341763c f2fs: simplify the way of calulating next nat address
+803eb0c f2fs: sanity check size of nat and sit cache
+5d57973 f2fs: fix a panic caused by NULL flush_cmd_control
+25aa89d f2fs: remove the unnecessary cast for PTR_ERR
+0d742c4 f2fs: remove false-positive bug_on
+11f1010 f2fs: Do not issue small discards in LFS mode
+26c49fc f2fs: don't bother checking for encryption key in ->write_iter()
+28347a9 f2fs: don't bother checking for encryption key in ->mmap()
+fdff4ee f2fs: wait discard IO completion without cmd_lock held
+51f9f15 f2fs: wake up all waiters in f2fs_submit_discard_endio
+b00fbed f2fs: show more info if fail to issue discard
+574df57 f2fs: introduce io_list for serialize data/node IOs
+4eefec5 f2fs: split wio_mutex
+e0dc1c6 f2fs: combine huge num of discard rb tree consistence checks
+fbfd167 f2fs: fix a bug caused by NULL extent tree
+2e1a2f8 f2fs: try to freeze in gc and discard threads
+c4b718d f2fs: add a new function get_ssr_cost
+2606f46 f2fs: declare load_free_nid_bitmap static
+6858365 f2fs: avoid f2fs_lock_op for IPU writes
+b7de82f f2fs: split bio cache
+1352e9e f2fs: use fio instead of multiple parameters
+50c3c56 f2fs: remove unnecessary read cases in merged IO flow
+ddd70bf f2fs: use f2fs_submit_page_bio for ra_meta_pages
+793ba63 f2fs: make sure f2fs_gc returns consistent errno
+56c9474 f2fs: load inode's flag from disk
+9b5020e f2fs: sanity check checkpoint segno and blkoff
+f3168db f2fs, block_dump: give WRITE direction to submit_bio
+259a833 f2fs: use WRITE_SYNC for REQ_SYNC
+9d72ea5 f2fs: enable f2fs_migrate_page
+78df748 f2fs: switch to using fscrypt_match_name()
+359d0ba fscrypt: introduce helper function for filename matching
+4969181 fscrypt: fix context consistency check when key(s) unavailable
+8626e8b fscrypt: Move key structure and constants to uapi
+467b9618 fscrypt: remove unnecessary checks for NULL operations
+1ce4bf4 fscrypt: eliminate ->prepare_context() operation
+7bca1bc fscrypt: remove broken support for detecting keyring key revocation
+d51df49 fscrypt: avoid collisions when presenting long encrypted filenames
+7c73ee5 f2fs: check entire encrypted bigname when finding a dentry
+ae04826 f2fs: sync f2fs_lookup() with ext4_lookup()
+edbd5ca f2fs: fix a mount fail for wrong next_scan_nid
+fe6109b f2fs: relocate inode_{,un}lock in F2FS_IOC_SETFLAGS
+bfce814 f2fs: show available_nids in f2fs/status
+b853ecc f2fs: flush dirty nats periodically
+a2a8009 f2fs: introduce CP_TRIMMED_FLAG to avoid unneeded discard
+392fa13 f2fs: allow cpc->reason to indicate more than one reason
+5e51140 f2fs: release cp and dnode lock before IPU
+e141ffe f2fs: shrink size of struct discard_cmd
+75e7237 f2fs: don't hold cmd_lock during waiting discard command
+5c0ef58 f2fs: nullify fio->encrypted_page for each writes
+b8c6684 f2fs: introduce valid_ipu_blkaddr to clean up
+6655982 f2fs: lookup extent cache first under IPU scenario
+5eef972 f2fs: reconstruct code to write a data page
+a49687a f2fs: introduce __wait_discard_cmd
+c2a2bca f2fs: introduce __issue_discard_cmd
+3e20e39 f2fs: enable small discard by default
+a956aa9 f2fs: delay awaking discard thread
+9151c26 f2fs: seperate read nat page from nat_tree_lock
+672b666 f2fs: fix multiple f2fs_add_link() having same name for inline dentry
+323b2ec f2fs: skip encrypted inode in ASYNC IPU policy
+ea69f89 f2fs: fix out-of free segments
+6b072a4 f2fs: improve definition of statistic macros
+2e9e75c f2fs: assign allocation hint for warm/cold data
+11ea8bd f2fs: fix _IOW usage
+33e88cc f2fs: add ioctl to flush data from faster device to cold area
+35a5fbd8 f2fs: introduce async IPU policy
+c2ab404 f2fs: add undiscard blocks stat
+58846ee f2fs: unlock cp_rwsem early for IPU writes
+72d7cb0 f2fs: introduce __check_rb_tree_consistence
+6c1cf32 f2fs: trace __submit_discard_cmd
+6446a8d f2fs: in prior to issue big discard
+00e2b3d f2fs: clean up discard_cmd_control structure
+f0fd6d1 f2fs: use rb-tree to track pending discard commands
+29ac175 f2fs: avoid dirty node pages in check_only recovery
+9f16ea8 f2fs: fix not to set fsync/dentry mark
+7d66fbf f2fs: allocate hot_data for atomic writes
+1faa48c f2fs: give time to flush dirty pages for checkpoint
+c9fea37 f2fs: fix fs corruption due to zero inode page
+b923837 f2fs: shrink blk plug region
+eb5d0eb f2fs: extract rb-tree operation infrastructure
+d2d6d6b f2fs: avoid frequent checkpoint during f2fs_gc
+c6c45ae f2fs: clean up some macros in terms of GET_SEGNO
+6c54827 f2fs: clean up get_valid_blocks with consistent parameter
+5891c092 f2fs: use segment number for get_valid_blocks
+b25eea4 f2fs: guard macro variables with braces
+2c8c4be f2fs: fix comment on f2fs_flush_merged_bios() after 86531d6b
+aa9a061 f2fs: prevent waiter encountering incorrect discard states
+383c460 f2fs: introduce f2fs_wait_discard_bios
+1935ae2 f2fs: split discard_cmd_list
+b9eb0c3 Revert "f2fs: put allocate_segment after refresh_sit_entry"
+4ff4b05 f2fs: split make_dentry_ptr() into block and inline versions
+c50d967 f2fs: submit bio of in-place-update pages
+75d6227 f2fs: remove the redundant variable definition
+8a15a10 f2fs: avoid IO split due to mixed WB_SYNC_ALL and WB_SYNC_NONE
+971fd430 f2fs: write small sized IO to hot log
+1217142 f2fs: use bitmap in discard_entry
+839c48c f2fs: clean up destroy_discard_cmd_control
+d26d0d6 f2fs: count discard command entry
+0682484 f2fs: show issued flush/discard count
+cf66298 f2fs: relax node version check for victim data in gc
+a79df52 f2fs: start SSR much eariler to avoid FG_GC
+5da7eae f2fs: allocate node and hot data in the beginning of partition
+9fd178d f2fs: fix wrong max cost initialization
+b7908fd f2fs: allow write page cache when writting cp
+da6787d f2fs: don't reserve additional space in xattr block
+ec8d68b f2fs: clean up xattr operation
+43ba805 f2fs: don't track volatile file in dirty inode list
+2c4d423 f2fs: show the max number of volatile operations
+d260106 f2fs: fix race condition in between free nid allocator/initializer
+0498bcc f2fs: use set_page_private marcro in f2fs_trace_pid
+9ae9999 f2fs: fix recording invalid last_victim
+f2d46f8 f2fs: more reasonable mem_size calculating of ino_entry
+a2de759 f2fs: calculate the f2fs_stat_info into base_mem
+d93e6d2 f2fs: avoid stat_inc_atomic_write for non-atomic file
+6e2f9a6 f2fs: sanity check of crc_offset from raw checkpoint
+b520030 f2fs: cleanup the disk level filename updating
+603856e f2fs: cover update_free_nid_bitmap with nid_list_lock
+adf8e04 f2fs: fix bad prefetchw of NULL page
+e4aee98 f2fs: clear FI_DATA_EXIST flag in truncate_inline_inode
+747a5da f2fs: move mnt_want_write_file after arguments checking
+3e00434 f2fs: check new size by inode_newsize_ok in f2fs_insert_range
+f0e0481 f2fs: avoid copy date to user-space if move file range fail
+068f965 f2fs: drop duplicate new_size assign in f2fs_zero_range
+5adc542 f2fs: adjust the way of calculating nat block
+da4cb18 f2fs: add fault injection on f2fs_truncate
+621f74f f2fs: check range before defragment
+cb8bf70 f2fs: use parameter max_items instead of PIDVEC_SIZE
+a89ee08 f2fs: add a punch discard command function
+d730a92 f2fs: allocate a bio for discarding when actually issuing it
+17d1f2e f2fs: skip writeback meta pages if cp_mutex acquire failed
+bda55a9 f2fs: show more precise message on orphan recovery failure
+072d452 f2fs: remove dead macro PGOFS_OF_NEXT_DNODE
+ebc19d7 f2fs: drop duplicate radix tree lookup of nat_entry_set
+997ff01 f2fs: make sure trace all f2fs_issue_flush
+eb80e92 f2fs: don't allow volatile writes for non-regular file
+329dddd f2fs: don't allow atomic writes for not regular files
+65e2783 f2fs: fix stale ATOMIC_WRITTEN_PAGE private pointer
+c6d0254 f2fs: build stat_info before orphan inode recovery
+286197e f2fs: fix the fault of calculating blkstart twice
+6725c38 f2fs: fix the fault of checking F2FS_LINK_MAX for rename inode
+c30e356 f2fs: don't allow to get pino when filename is encrypted
+3858e12 f2fs: fix wrong error injection for evict_inode
+1b32a36 f2fs: le32_to_cpu for ckpt->cp_pack_total_block_count
+53a58e7 f2fs: combine nat_bits and free_nid_bitmap cache
+d069894 f2fs: skip scanning free nid bitmap of full NAT blocks
+ebb9a36 f2fs: sanity check segment count
+7a0935e f2fs: use __set{__clear}_bit_le
+1fc17dd f2fs: update_free_nid_bitmap() can be static
+334a14d f2fs: __update_nat_bits() can be static
+4451f42 f2fs: le16_to_cpu for xattr->e_value_size
+7e7edb2 f2fs: don't overwrite node block by SSR
+886b00c f2fs: don't need to invalidate wrong node page
+5d693cc f2fs: fix an error return value in truncate_partial_data_page
+d5ccc3b fscrypt: catch up to v4.11-rc1
+6261e16 f2fs: avoid to flush nat journal entries
+eda0329 f2fs: avoid to issue redundant discard commands
+2f03d8b f2fs: fix a plint compile warning
+6610dc6 f2fs: add f2fs_drop_inode tracepoint
+022b0c8 f2fs: Fix zoned block device support
+8f7c2c6 f2fs: remove redundant set_page_dirty()
+feb89f5 f2fs: fix to enlarge size of write_io_dummy mempool
+2d6136a f2fs: fix memory leak of write_io_dummy mempool during umount
+a54a39a f2fs: fix to update F2FS_{CP_}WB_DATA count correctly
+a35880f f2fs: use MAX_FREE_NIDS for the free nids target
+0222fe9 f2fs: introduce free nid bitmap
+531c0b9 f2fs: new helper cur_cp_crc() getting crc in f2fs_checkpoint
+59eb347 f2fs: update the comment of default nr_pages to skipping
+afd4ef7 f2fs: drop the duplicate pval in f2fs_getxattr
+646d133 f2fs: Don't update the xattr data that same as the exist
+6b8920f f2fs: kill __is_extent_same
+94d8c55 f2fs: avoid bggc->fggc when enough free segments are avaliable after cp
+4d48e3c f2fs: select target segment with closer temperature in SSR mode
+2116c62 f2fs: show simple call stack in fault injection message
+4c44fff fscrypt: catch fscrypto_get_policy in v4.10-rc6
+eea89e5 f2fs: use __clear_bit_le
+27f064a f2fs: no need lock_op in f2fs_write_inline_data
+dffcba1 f2fs: add bitmaps for empty or full NAT blocks
+f83d653 f2fs: replace rw semaphore extent_tree_lock with mutex lock
+de059fa f2fs: avoid m_flags overlay when allocating more data blocks
+6dbf343 f2fs: remove unsafe bitmap checking
+d33f0f4 f2fs: init local extent_info to avoid stale stack info in tp
+7b181f5 f2fs: remove unnecessary condition check for write_checkpoint in f2fs_gc
+47bb638 f2fs: do SSR for node segments more aggresively
+3cbea3b f2fs: check discard alignment only for SEQWRITE zones
+35fce45 f2fs: wait for discard completion after submission
+39d241a f2fs: much larger batched trim_fs job
+670fe1d f2fs: avoid very large discard command
+f3016e7 f2fs: find data segments across all the types
+b7d1402 f2fs: do SSR in higher priority
+de1328f f2fs: do SSR for data when there is enough free space
+73b5f69 f2fs: node segment is prior to data segment selected victim
+afb5551 f2fs: put allocate_segment after refresh_sit_entry
+ea5f96d f2fs: add ovp valid_blocks check for bg gc victim to fg_gc
+3d0c5f9 f2fs: do not wait for writeback in write_begin
+8762cc9 f2fs: replace __get_victim by dirty_segments in FG_GC
+11fa122 f2fs: fix multiple f2fs_add_link() calls having same name
+4d74959 f2fs: show actual device info in tracepoints
+76c9a71 f2fs: use SSR for warm node as well
+6adc8c2 f2fs: enable inline_xattr by default
+0ecafa1 f2fs: introduce noinline_xattr mount option
+7a8b94f f2fs: avoid reading NAT page by get_node_info
+ac90418 f2fs: remove build_free_nids() during checkpoint
+c9e0cfb f2fs: change recovery policy of xattr node block
+6dd8b38 f2fs: super: constify fscrypt_operations structure
+477a516 f2fs: show checkpoint version at mount time
+410b5e5 f2fs: remove preflush for nobarrier case
+81b9231 f2fs: check last page index in cached bio to decide submission
+c7f16cd f2fs: check io submission more precisely
+d328d96 f2fs: call internal __write_data_page directly
+0d5a756 f2fs: avoid out-of-order execution of atomic writes
+12ffef2 f2fs: move write_node_page above fsync_node_pages
+6f78f75 f2fs: move flush tracepoint
+cc93724 f2fs: show # of APPEND and UPDATE inodes
+4f2abac f2fs: fix 446 coding style warnings in f2fs.h
+4a96a72 f2fs: fix 3 coding style errors in f2fs.h
+12d1787 f2fs: declare missing static function
+891ec19 f2fs: show the fault injection mount option
+747c8bc f2fs: fix null pointer dereference when issuing flush in ->fsync
+c5d6cba f2fs: fix to avoid overflow when left shifting page offset
+74ffae0 f2fs: enhance lookup xattr
+9d04cd0 f2fs: fix a dead loop in f2fs_fiemap()
+8099cab f2fs: show # of on-going flush and discard bios
+d29e2e6 f2fs: add a kernel thread to issue discard commands asynchronously
+7c4ec7f f2fs: factor out discard command info into discard_cmd_control
+52411f0 f2fs: reorganize stat information
+eac64ff f2fs: clean up flush/discard command namings
+ce416d7 f2fs: check in-memory sit version bitmap
+c25898f f2fs: check in-memory nat version bitmap
+dfb761c f2fs: check in-memory block bitmap
+8b77d04a f2fs: introduce FI_ATOMIC_COMMIT
+60c9b12 f2fs: clean up with list_{first, last}_entry
+c492452 f2fs: return fs_trim if there is no candidate
+650b7b4 f2fs: avoid needless checkpoint in f2fs_trim_fs
+bc0ca38 f2fs: relax async discard commands more
+9e83160 f2fs: drop exist_data for inline_data when truncated to 0
+06d5016 f2fs: don't allow encrypted operations without keys
+7c135811 f2fs: show the max number of atomic operations
+b21c7a9 f2fs: get io size bit from mount option
+a7abe3e f2fs: support IO alignment for DATA and NODE writes
+eacf157 f2fs: add submit_bio tracepoint
+aef440c f2fs: reassign new segment for mode=lfs
+3c00e37 f2fs: fix a missing discard prefree segments
+c09b4fa f2fs: use rb_entry_safe
+e7ad161 f2fs: add a case of no need to read a page in write begin
+a32d340 f2fs: fix a problem of using memory after free
+0d533ac f2fs: remove unneeded condition
+7e69a9d f2fs: don't cache nat entry if out of memory
+44d1900 f2fs: remove unused values in recover_fsync_data
+9dcae64 f2fs: add migrate_page to avoid patch conflicts
+2e1bddd f2fs: support async discard based on v4.9
+3756694 f2fs: resolve op and op_flags confilcts
+48bed46 ext4 crypto: fix bugs in ext4_encrypted_zeroout()
+8bbf3a2 ext4 crypto: replace some BUG_ON()'s with error checks
+6d6cba5 ext4 crypto: ext4_page_crypto() doesn't need a encryption context
+78406fb ext4: optimize ext4_writepage() for attempted 4k delalloc writes
+f9cfc0f ext4 crypto: fix memory leak in ext4_bio_write_page()
+adeaeec ext4: disable zeroout optimization when encryption is enabled
+52b6862 ext4 crypto: remove duplicate header file
+737abbd ext4 crypto: fix spelling typo in comment
+bcf0f12 ext4 crypto: exit cleanly if ext4_derive_key_aes() fails
+6e8221f ext4 crypto: check for too-short encrypted file names
+5323747 ext4 crypto: use a jbd2 transaction when adding a crypto policy
+30d746d ext4 crypto: fail the mount if blocksize != pagesize
+d89df30 ext4 crypto: fix sparse warnings in fs/ext4/ioctl.c
+fb59c94 ext4 crypto: fix ext4_get_crypto_ctx()'s calling convention in ext4_decrypt_one
+affffc5 ext4 crypto: allocate bounce pages using GFP_NOWAIT
+a4d6258 ext4 crypto: release crypto resource on module exit
+474c471 ext4 crypto: handle unexpected lack of encryption keys
+b45c658 ext4 crypto: allocate the right amount of memory for the on-disk symlink
+bfae791 ext4 crypto: clean up error handling in ext4_fname_setup_filename
+0948269 ext4 crypto: policies may only be set on directories
+64d55fa ext4 crypto: enforce crypto policy restrictions on cross-renames
+5f95066 ext4 crypto: encrypt tmpfile located in encryption protected directory
+c78a917 ext4 crypto: make sure the encryption info is initialized on opendir(2)
+4efbbb0 ext4 crypto: set up encryption info for new inodes in ext4_inherit_context()
+a9a5c04 ext4 crypto: fix memory leaks in ext4_encrypted_zeroout
+225ce11 ext4 crypto: use per-inode tfm structure
+0fb2970 ext4 crypto: require CONFIG_CRYPTO_CTR if ext4 encryption is enabled
+2b972d7 ext4 crypto: shrink size of the ext4_crypto_ctx structure
+fd28efd ext4 crypto: get rid of ci_mode from struct ext4_crypt_info
+6654fbe ext4 crypto: use slab caches
+0dedf93 ext4: clean up superblock encryption mode fields
+108a7ec ext4 crypto: reorganize how we store keys in the inode
+ba65c1c ext4 crypto: separate kernel and userspace structure for the key
+cbbf4cc ext4 crypto: don't allocate a page when encrypting/decrypting file names
+a4c2541 ext4 crypto: optimize filename encryption
+5af9a1b ext4 crypto: Do not select from EXT4_FS_ENCRYPTION
+b1f1345 ext4 crypto: add padding to filenames before encrypting
+9834ae2 ext4 crypto: simplify and speed up filename encryption
+61df539 ext4 crypto: enable encryption feature flag
+ab88255 ext4 crypto: Add symlink encryption
+e4a12ee ext4 crypto: enable filename encryption
+4a1fad4 ext4 crypto: filename encryption modifications
+c2026ed ext4 crypto: partial update to namei.c for fname crypto
+f1e0bd6 ext4 crypto: insert encrypted filenames into a leaf directory block
+36c6292 ext4 crypto: teach ext4_htree_store_dirent() to store decrypted filenames
+190c13d ext4 crypto: filename encryption facilities
+137095d ext4 crypto: implement the ext4 decryption read path
+b59e59b ext4 crypto: implement the ext4 encryption write path
+b25bd4a ext4 crypto: inherit encryption policies on inode and directory create
+41812e1 ext4 crypto: enforce context consistency
+d8dbecd ext4 crypto: add encryption key management facilities
+6ab872f ext4 crypto: add ext4 encryption facilities
+d491a0f ext4 crypto: add encryption policy and password salt support
+7c3b14b ext4 crypto: add encryption xattr support
+7cb2919 ext4 crypto: export ext4_empty_dir()
+9fbafbe ext4 crypto: add ext4 encryption Kconfig
+88ef27b ext4 crypto: reserve codepoints used by the ext4 encryption feature
+d34a8d1 ext4 crypto: add ext4_mpage_readpages()
+f586c8a f2fs: fix a missing size change in f2fs_setattr
+e8a4589 fs/super.c: fix race between freeze_super() and thaw_super()
+5f11bd5 scripts/tags.sh: catch 4.9-rc6
+6c26652 f2fs: fix to access nullified flush_cmd_control pointer
+03e946b f2fs: free meta pages if sanity check for ckpt is failed
+1076e29 f2fs: detect wrong layout
+0a3f871 f2fs: call sync_fs when f2fs is idle
+d907274 Revert "f2fs: use percpu_counter for # of dirty pages in inode"
+d2bb99d f2fs: return AOP_WRITEPAGE_ACTIVATE for writepage
+cacd673 f2fs: do not activate auto_recovery for fallocated i_size
+286fce3 f2fs: fix 32-bit build
+0140724 f2fs: set ->owner for debugfs status file's file_operations
+fa1bc8a f2fs: fix incorrect free inode count in ->statfs
+017a626 f2fs: drop duplicate header timer.h
+1ad9373d f2fs: fix wrong AUTO_RECOVER condition
+06f2d95 f2fs: do not recover i_size if it's valid
+2e8e24e f2fs: fix fdatasync
+d86e1b3 f2fs: fix to account total free nid correctly
+1c4a328 f2fs: fix an infinite loop when flush nodes in cp
+2db5438 f2fs: don't wait writeback for datas during checkpoint
+577120b f2fs: fix wrong written_valid_blocks counting
+137d6e4 f2fs: avoid BG_GC in f2fs_balance_fs
+8929e89 f2fs: fix redundant block allocation
+0335f87 f2fs: use err for f2fs_preallocate_blocks
+77a043d f2fs: support multiple devices
+2389c20 f2fs: allow dio read for LFS mode
+5126e6a f2fs: revert segment allocation for direct IO
+19d23e5 f2fs: return directly if block has been removed from the victim
+b7678fd Revert "f2fs: do not recover from previous remained wrong dnodes"
+fbc0377 f2fs: remove checkpoint in f2fs_freeze
+a120f9d f2fs: assign segments correctly for direct_io
+6fe17a5 f2fs: fix wrong i_atime recovery
+eb2bce9 f2fs: record inode updating status correctly
+e322c96 f2fs: Trace reset zone events
+9a9a104 f2fs: Reset sequential zones on zoned block devices
+51c7c5d f2fs: Cache zoned block devices zone type
+af9b11b f2fs: Do not allow adaptive mode for host-managed zoned block devices
+6a2c66c f2fs: Always enable discard for zoned blocks devices
+cac86d0 f2fs: Suppress discard warning message for zoned block devices
+b138ab6 f2fs: Check zoned block feature for host-managed zoned block devices
+066d63b f2fs: Use generic zoned block device terminology
+05ceb73 f2fs: Add missing break in switch-case
+8f1426c f2fs: avoid infinite loop in the EIO case on recover_orphan_inodes
+ca7f60f f2fs: report error of f2fs_fill_dentries
+8dc8740 fs/crypto: catch up 4.9-rc6
+8e275a3 f2fs: hide a maybe-uninitialized warning
+ba8ed06 f2fs: remove percpu_count due to performance regression
+c4c4be5 f2fs: make clean inodes when flushing inode page
+e10cf19 f2fs: keep dirty inodes selectively for checkpoint
+058e6e8 f2fs: Replace CURRENT_TIME_SEC with current_time() for inode timestamps
+f6d0877 f2fs: use BIO_MAX_PAGES for bio allocation
+6b1873e f2fs: declare static function for __build_free_nids
+5068aa9 f2fs: call f2fs_balance_fs for setattr
+c5092d3 f2fs: count dirty inodes to flush node pages during checkpoint
+2abd540 f2fs: avoid casted negative value as shrink count
+cbc7549 f2fs: don't interrupt free nids building during nid allocation
+7c46a02 f2fs: clean up free nid list operations
+c3fedce f2fs: split free nid list
+8f13e31 f2fs: clear nlink if fail to add_link
+e299773 f2fs: fix sparse warnings
+d49f698 f2fs: fix error handling in fsync_node_pages
+97690ba f2fs: fix to update largest extent under lock
+43ea59c0 f2fs: be aware of extent beyond EOF in fiemap
+be0d17d f2fs: don't miss any f2fs_balance_fs cases
+ce5fdd8 f2fs: add missing f2fs_balance_fs in f2fs_zero_range
+0b8fe89 f2fs: give a chance to detach from dirty list
+6b75ee1 f2fs: fix to release discard entries during checkpoint
+b655a9e f2fs: exclude free nids building and allocation
+294a65a f2fs: fix missing read/write function pointers
+94d3856 f2fs: fix to determine start_cp_addr by sbi->cur_cp_pack
+99c7a06 f2fs: fix overflow due to condition check order
+b73f11e posix_acl: Clear SGID bit when setting file permissions
+4bd3182 f2fs: fix wrong sum_page pointer in f2fs_gc
+44559f5 f2fs: remove existing kfree_put_link
+4af7d6b f2fs: introduce update_ckpt_flags to clean up
+cb15cd3 f2fs: don't submit irrelevant page
+1f1f68f f2fs: fix to commit bio cache after flushing node pages
+5d841b7 f2fs: introduce get_checkpoint_version for cleanup
+0b30b6f f2fs: remove dead variable
+cb489c5 f2fs: remove redundant io plug
+b5102ce f2fs: support checkpoint error injection
+82ce88c f2fs: fix to recover old fault injection config in ->remount_fs
+dabf677 f2fs: do fault injection initialization in default_options
+275be45 f2fs: remove redundant value definition
+0f37e37 f2fs: support configuring fault injection per superblock
+a827555 f2fs: adjust display format of segment bit
+8336676 f2fs: remove dirty inode pages in error path
+e56c19a f2fs: do not unnecessarily null-terminate encrypted symlink data
+f88c8d3 f2fs: handle errors during recover_orphan_inodes
+ee5fb6d f2fs: avoid gc in cp_error case
+b16c095 f2fs: should put_page for summary page
+78e8bd1 f2fs: assign return value in f2fs_gc
+8401bc7 f2fs: introduce cp_lock to protect updating of ckpt_flags
+86afe58 f2fs: fix to avoid race condition when updating sbi flag
+600b3f7 f2fs: put directory inodes before checkpoint in roll-forward recovery
+d9409bb f2fs: use crc and cp version to determine roll-forward recovery
+9945c9d f2fs: preallocate blocks for encrypted file
+b241bd66 f2fs: show dirty inode number
+7de9443 f2fs: support IO error injection
+3d89170 f2fs: fix to return error number of read_all_xattrs correctly
+a8d8e99 f2fs: make f2fs_filetype_table static
+6564adc f2fs: handle error in recover_orphan_inode
+10aa0d8 f2fs: remove dead code f2fs_check_acl
+e62467d f2fs: exclude special cases for f2fs_move_file_range
+6487450 f2fs: fix to set PageUptodate in f2fs_write_end correctly
+e47621b f2fs: fix parameters of __exchange_data_block
+50a0aa0 f2fs: avoid ENOMEM during roll-forward recovery
+ceb8721 f2fs: add common iget in add_fsync_inode
+710a060 f2fs: check free_sections for defragmentation
+165170e f2fs: forbid to do fstrim if fs has some error
+742281d f2fs: avoid page allocation for truncating partial inline_data
+3f2f869 f2fs: no need to make zeros beyond i_size
+77ad5b1 f2fs: fix to detect temporary name of multimedia file
+128f147 f2fs: fix minor typo
+58e9532 f2fs: set dentry bits on random location in memory
+f0d8a2d f2fs: fix to set superblock dirty correctly
+abbb231 f2fs: add roll-forward recovery process for encrypted dentry
+0e8302f f2fs: fix lost xattrs of directories
+c825457 f2fs: set encryption name flag in add inline entry path
+97bab9d f2fs crypto: avoid unneeded memory allocation in ->readdir
+811dc88 f2fs: fix to do security initialization of encrypted inode with original filename
+7518786 f2fs: do in batch synchronously readahead during GC
+4c28d97 f2fs: schedule in between two continous batch discards
+268d123 f2fs: enable inline_dentry by default and add noinline_dentry option
+21c89a7 f2fs: fix a bug when using namehash to locate dentry bucket
+d5e5d24 f2fs: fix to preallocate block only aligned to 4K
+d55b2b0 f2fs: fix non static symbol warning
+635c664 f2fs: remove unnecessary initialization
+ab0ed95 f2fs: remove redundant judgement condition in available_free_memory
+558b5d1 f2fs: check return value of write_checkpoint during fstrim
+c021dad f2fs: fix to do f2fs_balance_fs in f2fs_map_blocks correctly
+fab6259 f2fs: avoid unneeded loop in build_sit_entries
+4354853 f2fs: clean up foreground GC flow
+0e78e52 f2fs: set dirty state for filesystem only when updating meta data
+28cb7b3 f2fs: skip new checkpoint when doing fstrim without fs change
+1cd43c8 f2fs: add discard info to sys entry of f2fs status
+545c6f9 f2fs: reduce batch size of fstrim
+4fd6684 f2fs: do not use discard_map for hard disks
+18bc688 f2fs: not allow to write illegal blkaddr
+afcc65d f2fs: avoid potential deadlock in f2fs_move_file_range
+465b2d36 f2fs: allow copying file range only in between regular files
+d87a0cc Revert "f2fs: move i_size_write in f2fs_write_end"
+1250c75 f2fs: adjust other changes
+eaaaafb f2fs: recovery missing dot dentries in root directory
+98dd27a f2fs: get victim segment again after new cp
+b679f90 f2fs: handle error case with f2fs_bug_on
+8017797 f2fs: avoid data race when deciding checkpoin in f2fs_sync_file
+8f4c880 f2fs: support an ioctl to move a range of data blocks
+ad8c0d9 f2fs: fix to report error number of f2fs_find_entry
+1bc0ce0 f2fs: avoid memory allocation failure due to a long length
+2b27b95 f2fs: reset default idle interval value
+7a94eeb f2fs: use blk_plug in all the possible paths
+587018b f2fs: fix to avoid data update racing between GC and DIO
+9729972 f2fs: add maximum prefree segments
+f623492 f2fs: disable extent_cache for fcollapse/finsert inodes
+551a926 f2fs: refactor __exchange_data_block for speed up
+d2e30dc f2fs: fix ERR_PTR returned by bio
+ae94a72 f2fs: avoid mark_inode_dirty
+e070bb8 f2fs: move i_size_write in f2fs_write_end
+9d4b81d f2fs: fix to avoid redundant discard during fstrim
+e4c9fbf f2fs: avoid mismatching block range for discard
+2fe9824 f2fs: fix incorrect f_bfree calculation in ->statfs
+a44be29 f2fs: skip to check the block address of node page
+f910462 f2fs: shrink critical region in spin_lock
+074ba92 f2fs: call SetPageUptodate if needed
+d311e0c f2fs: introduce f2fs_set_page_dirty_nobuffer
+01990e2 f2fs: remove unnecessary goto statement
+79088ab f2fs: add nodiscard mount option
+20d30cc f2fs: fix to redirty page if fail to gc data page
+308335d f2fs: fix to detect truncation prior rather than EIO during read
+f4b584a f2fs: fix to avoid reading out encrypted data in page cache
+a07a3b0 f2fs: avoid latency-critical readahead of node pages
+b3264c2 f2fs: avoid writing node/metapages during writes
+3ace862 f2fs: produce more nids and reduce readahead nats
+4d8b1af f2fs: detect host-managed SMR by feature flag
+ba4fb8a f2fs: call update_inode_page for orphan inodes
+1975f11 f2fs: report error for f2fs_parent_dir
+f6addb3 f2fs: find parent dentry correctly
+ffef65f f2fs: fix deadlock in add_link failure
+e48271f f2fs: introduce mode=lfs mount option
+9a25c56 f2fs: skip clean segment for gc
+447c024 f2fs: drop any block plugging
+e70ce54 f2fs: avoid reverse IO order for NODE and DATA
+96c906e f2fs: set mapping error for EIO
+1812361 f2fs: control not to exceed # of cached nat entries
+b98d8bc f2fs: fix wrong percentage
+df2e74a f2fs: avoid data race between FI_DIRTY_INODE flag and update_inode
+effb3c9 f2fs: remove obsolete parameter in f2fs_truncate
+ec4a6af f2fs: avoid wrong count on dirty inodes
+acf102e f2fs: remove deprecated parameter
+725f419 f2fs: handle writepage correctly
+f3ff28d f2fs: return error of f2fs_lookup
+c2a8db9 f2fs: return the errno to the caller to avoid using a wrong page
+3b63415 f2fs: remove two steps to flush dirty data pages
+5a160e1 f2fs: do not skip writing data pages
+8e6ee8c f2fs: inject to produce some orphan inodes
+26eb913 f2fs: propagate error given by f2fs_find_entry
+5388c78 f2fs: remove writepages lock
+4389d89 f2fs: set flush_merge by default
+67224da f2fs: detect congestion of flush command issues
+409f5cb f2fs: avoid unnecessary updating inode during fsync
+77c11ea f2fs: remove syncing inode page in all the cases
+b8abc9a f2fs: flush inode metadata when checkpoint is doing
+fcf4d4a f2fs: call mark_inode_dirty_sync for i_field changes
+064bb64 f2fs: introduce f2fs_i_links_write with mark_inode_dirty_sync
+7b45033 f2fs: introduce f2fs_i_blocks_write with mark_inode_dirty_sync
+cfddb84 f2fs: introduce f2fs_i_size_write with mark_inode_dirty_sync
+b5e1142 f2fs: use inode pointer for {set, clear}_inode_flag
+c4888d6 Revert "f2fs: no need inc dirty pages under inode lock"
+7f1286d f2fs: adjust other changes
+2dfb34c f2fs: fix to update dirty page count correctly
+e0e6325 f2fs: flush pending bios right away when error occurs
+61e0d90 f2fs: avoid ENOSPC fault in the recovery process
+14d7d01 f2fs: make exit_f2fs_fs more clear
+710cdff f2fs: use percpu_counter for total_valid_inode_count
+a2ca461 f2fs: use percpu_counter for alloc_valid_block_count
+73691a3 f2fs: use percpu_counter for # of dirty pages in inode
+183e5cc f2fs: use percpu_counter for page counters
+a3417d6 f2fs: use bio count instead of F2FS_WRITEBACK page count
+b5f8d6e6 f2fs: manipulate dirty file inodes when DATA_FLUSH is set
+01d10f5 f2fs: add fault injection to sysfs
+f64a46e f2fs: no need inc dirty pages under inode lock
+1c04c77 f2fs: fix incorrect error path handling in f2fs_move_rehashed_dirents
+3251e4f f2fs: fix i_current_depth during inline dentry conversion
+8af2b7d f2fs: correct return value type of f2fs_fill_super
+8d31751 f2fs: fix deadlock when flush inline data
+4caada5 f2fs: avoid f2fs_bug_on during recovery
+f27b527 f2fs: show # of orphan inodes
+7e17226 f2fs: support in batch fzero in dnode page
+7e0d302 f2fs: support in batch multi blocks preallocation
+ec3e14c f2fs: make atomic/volatile operation exclusive
+5cfead2 f2fs: use mnt_{want,drop}_write_file in ioctl
+4e1bf65 f2fs: do not preallocate block unaligned to 4KB
+fefb3cf f2fs: read node blocks ahead when truncating blocks
+9c6f02b f2fs: fallocate data blocks in single locked node page
+b36d1ca f2fs: fix inode cache leak
+86ec9a2 fscrypto/f2fs: allow fs-specific key prefix for fs encryption
+e54485d f2fs: avoid panic when truncating to max filesize
+73882f6 f2fs: fix incorrect mapping in ->bmap
+f6805f1 f2fs: remove an obsolete variable
+9d1c566 f2fs: don't worry about inode leak in evict_inode
+896685a f2fs: shrink size of struct seg_entry
+853f321 f2fs: reuse get_extent_info
+c56f732 f2fs: remove unneeded memset when updating xattr
+298390f f2fs: remove unneeded readahead in find_fsync_dnodes
+8e6b46f f2fs: retry to truncate blocks in -ENOMEM case
+57c4c5f f2fs: fix leak of orphan inode objects
+569984d f2fs: revisit error handling flows
+7fb9839 f2fs: inject ENOSPC failures
+da1af05 f2fs: inject page allocation failures
+5cc376a f2fs: inject kmalloc failure
+b245daf f2fs: add mount option to select fault injection ratio
+ac2fb9e f2fs: use f2fs_grab_cache_page instead of grab_cache_page
+7aae2dc f2fs: introduce f2fs_kmalloc to wrap kmalloc
+b6fb404 f2fs: add proc entry to show valid block bitmap
+23fbadc f2fs: introduce macros for proc entries
+dacf384 f2fs: factor out fsync inode entry operations
+f5b2345 f2fs: fix to clear page private flag
+2fbf63e f2fs: fix to clear private data in page
+46df73e f2fs: fix to return 0 if err == -ENOENT in f2fs_readdir
+393666c f2fs: move node pages only in victim section during GC
+6bcf5f9 f2fs: be aware of invalid filename length
+706c397 f2fs: issue cache flush on direct IO
+ae624ff f2fs: set fsync mark only for the last dnode
+ba04c62 f2fs: report unwritten status in fsync_node_pages
+f1d9646 f2fs: split sync_node_pages with fsync_node_pages
+34e398e f2fs: avoid writing 0'th page in volatile writes
+e5979cf f2fs: avoid needless lock for node pages when fsyncing a file
+3415860 f2fs: flush dirty pages before starting atomic writes
+0ea3171 f2fs: don't invalidate atomic page if successful
+6320ed6 f2fs: give -E2BIG for no space in xattr
+b7ac6c2 f2fs: remove redundant condition check
+b0ddc11 f2fs: unset atomic/volatile flag in f2fs_release_file
+6cd5691 f2fs: fix dropping inmemory pages in a wrong time
+45ba688 f2fs: add BUG_ON to avoid unnecessary flow
+bbf4801 f2fs: fix to convert inline directory correctly
+f37ee29 f2fs: show current mount status
+a785d66 f2fs: treat as a normal umount when remounting ro
+afc707e f2fs: give -EINVAL for norecovery and rw mount
+a2b7945 f2fs: recover superblock at RW remounts
+7b42c55 f2fs: give RO message when recovering superblock
+b41ad10 ext4/fscrypto: avoid RCU lookup in d_revalidate
+26693f2 fscrypto: don't let data integrity writebacks fail with ENOMEM
+355618a f2fs: use dget_parent and file_dentry in f2fs_file_open
+4993e7a fscrypto: use dget_parent() in fscrypt_d_revalidate()
+9349ef8 f2fs: retrieve IO write stat from the right place
+70123d2 f2fs crypto: fix corrupted symlink in encrypted case
+95d334b f2fs: cover large section in sanity check of super
+95a5f74 f2fs/crypto: fix xts_tweak initialization
+f348327 f2fs: submit node page write bios when really required
+07939f9 f2fs: add missing argument to f2fs_setxattr stub
+dee276c f2fs: fix to avoid unneeded unlock_new_inode
+825f8b4 f2fs: clean up opened code with f2fs_update_dentry
+e0a4d64 f2fs: declare static functions
+045375b f2fs: use cryptoapi crc32 functions
+36dbf69 f2fs: modify the readahead method in ra_node_page()
+d0d7a18 f2fs crypto: sync ext4_lookup and ext4_file_open
+94f18d7 fs crypto: move per-file encryption from f2fs tree to fs/crypto
+cf3359b f2fs: mutex can't be used by down_write_nest_lock()
+b221cca f2fs: fix to avoid deadlock when merging inline data
+c1e1841 f2fs: introduce f2fs_flush_merged_bios for cleanup
+05c9c58 f2fs: introduce f2fs_update_data_blkaddr for cleanup
+1ea5263 f2fs crypto: fix incorrect positioning for GCing encrypted data page
+78a2e0c f2fs: fix incorrect upper bound when iterating inode mapping tree
+99ec4a0 f2fs: avoid hungtask problem caused by losing wake_up
+47456c4 f2fs: trace old block address for CoWed page
+11695a5 f2fs: try to flush inode after merging inline data
+fa80632 f2fs: show more info about superblock recovery
+179116c f2fs: fix the wrong stat count of calling gc
+8385219 f2fs: remain last victim segment number ascending order
+816114c f2fs: reuse read_inline_data for f2fs_convert_inline_page
+4f440d5 f2fs: fix to delete old dirent in converted inline directory in ->rename
+d63b08b f2fs: detect error of update_dent_inode in ->rename
+de5dd1d f2fs: move sanity checking of cp into get_valid_checkpoint
+c32c6f9 f2fs: slightly reorganize read_raw_super_block
+3838703 f2fs: reorder nat cache lock in cache_nat_entry
+2705839 f2fs: split journal cache from curseg cache
+6aa4076 f2fs: enhance IO path with block plug
+eec5cd6 f2fs: introduce f2fs_journal struct to wrap journal info
+9433e75 f2fs crypto: avoid unneeded memory allocation when {en/de}crypting symlink
+91784b4 f2fs crypto: handle unexpected lack of encryption keys
+6a52a69 f2fs crypto: make sure the encryption info is initialized on opendir(2)
+3c485bb f2fs: support revoking atomic written pages
+122fbe8 f2fs: split drop_inmem_pages from commit_inmem_pages
+d92ca31 f2fs: avoid garbage lenghs in dentries
+1d90617 f2fs crypto: sync with ext4's fname padding
+3fe886b f2fs: use correct errno
+f07823b f2fs crypto: add missing locking for keyring_key access
+93c9d4d f2fs crypto: check for too-short encrypted file names
+d14ba36 f2fs crypto: f2fs_page_crypto() doesn't need a encryption context
+331bb0b f2fs crypto: fix spelling typo in comment
+4d88292 f2fs crypto: replace some BUG_ON()'s with error checks
+8324eb1 f2fs: increase i_size to avoid missing data
+ebc4649 f2fs: preallocate blocks for buffered aio writes
+0dd0ca3 f2fs: move dio preallocation into f2fs_file_write_iter
+3b2cb46 f2fs: fix missing skip pages info
+ee7cee7 f2fs: introduce f2fs_submit_merged_bio_cond
+44e703e f2fs: fix conflict on page->private usage
+c3ebf43 f2fs: flush bios to handle cp_error in put_super
+432a76d f2fs: wait on page's writeback in writepages path
+c337499 f2fs: fix endianness of on-disk summary_footer
+e6c826c f2fs: speed up handling holes in fiemap
+85bfdc4 f2fs: introduce get_next_page_offset to speed up SEEK_DATA
+67e8754 f2fs: remove unneeded pointer conversion
+3a73288 f2fs: simplify __allocate_data_blocks
+a87c1e2 f2fs: simplify f2fs_map_blocks
+a44b3dc f2fs: introduce lifetime write IO statistics
+85a4b0e f2fs: give scheduling point in shrinking path
+ab00cb9 f2fs: improve shrink performance of extent nodes
+9f40a75 f2fs: don't set cached_en if it will be freed
+00176ae f2fs: move extent_node list operations being coupled with rbtree operation
+fd98157 f2fs: reconstruct the code to free an extent_node
+b62a972 f2fs: use wq_has_sleeper for cp_wait wait_queue
+685afe1 f2fs: avoid unnecessary search while finding victim in gc
+6a7444a f2fs: delete unnecessary wait for page writeback
+afdd755 f2fs: use wait_for_stable_page to avoid contention
+fd73a43 f2fs: enhance foreground GC
+e14bca2 f2fs: don't need to call set_page_dirty for io error
+4a11751 f2fs: avoid needless sync_inode_page when reading inline_data
+a9b5071 f2fs: don't need to sync node page at every time
+79e8a4e f2fs: avoid multiple node page writes due to inline_data
+de3dfb0 f2fs: do f2fs_balance_fs when block is allocated
+341d7d6 f2fs: fix to overcome inline_data floods
+57c4f62 f2fs: use writepages->lock for WB_SYNC_ALL
+039fc39 f2fs: remove needless condition check
+c500101 f2fs: correct search area in get_new_segment
+1a2c6cc f2fs: export dirty_nats_ratio in sysfs
+15c1123 f2fs: flush dirty nat entries when exceeding threshold
+672dbe6 f2fs: relocate is_merged_page
+79b68f3 f2fs: should unset atomic flag after successful commit
+9289d6a f2fs: fix wrong memory condition check
+e0ce295 f2fs: monitor the number of background checkpoint
+6ef0faf f2fs: detect idle time depending on user behavior
+58dbf7b f2fs: introduce time and interval facility
+66b36f2 f2fs: skip releasing nodes in chindless extent tree
+95a11bd f2fs: use atomic type for node count in extent tree
+83febc3 f2fs: recognize encrypted data in f2fs_fiemap
+c18dac3 f2fs: clean up f2fs_balance_fs
+f06bb3b f2fs: remove redundant calls
+33f647f f2fs: avoid unnecessary f2fs_balance_fs calls
+35cb340 f2fs: check the page status filled from disk
+cf77143 f2fs: introduce __get_node_page to reuse common code
+ecf85bf f2fs: check node id earily when readaheading node page
+b27b216 f2fs: read isize while holding i_mutex in fiemap
+249ca51 Revert "f2fs: check the node block address of newly allocated nid"
+e6f15da f2fs: cover more area with nat_tree_lock
+10b5b54 f2fs: introduce max_file_blocks in sbi
+e0df540 f2fs crypto: check CONFIG_F2FS_FS_XATTR for encrypted symlink
+936f43b f2fs: introduce zombie list for fast shrinking extent trees
+dc1c970 f2fs: monitor zombie_tree count
+04d3e0d f2fs: use IPU for fdatasync
+f4b4cfb f2fs: write pending bios when cp_error is set
+4735a2b f2fs: remove f2fs_bug_on in terms of max_depth
+b8cdf05 f2fs: fix f2fs_ioc_abort_volatile_write
+8081fea f2fs: fix to skip recovering dot dentries in a readonly fs
+24580ce f2fs: load largest extent all the time
+82a9f85 f2fs: use i_size_read to get i_size
+665b823 f2fs: early check broken symlink length in the encrypted case
+8d2c6e8 f2fs: clean up f2fs_ioc_write_checkpoint
+9f3bb38 f2fs: add a max block check for get_data_block_bmap
+ea4535c f2fs: fix bugs and simplify codes of f2fs_fiemap
+5da8412 f2fs: let user being aware of IO error
+7d2107c f2fs: add missing f2fs_balance_fs in __recover_dot_dentries
+d215ecc f2fs: declare static function
+0518093 f2fs: avoid f2fs_lock_op in f2fs_write_begin
+3f68a2c f2fs: return early when trying to read null nid
+ec31949 f2fs: introduce prepare_write_begin to clean up
+0ae3810 f2fs: don't convert inline inode when inline_data option is disable
+60e6306 f2fs: report error of do_checkpoint
+40e4ee8 f2fs: call f2fs_balance_fs only when node was changed
+e44d233 f2fs: reduce covered region of sbi->cp_rwsem in f2fs_map_blocks
+8ef6f5f f2fs: record node block allocation in dnode_of_data
+c3bc4c6 f2fs: avoid unnecessary f2fs_gc for dir operations
+f7c56ee f2fs: check inline_data flag at converting time
+4833221 f2fs: speed up shrinking extent tree entries
+c1c4762 f2fs: use atomic variable for total_extent_tree
+dffccc0 f2fs: add a tracepoint for sync_dirty_inodes
+098c323 f2fs: optimize the flow of f2fs_map_blocks
+f73cd96 f2fs: support data flush in background
+fa0cbf9 f2fs: stat dirty regular/symlink inodes
+57be4c9 f2fs: introduce new option for controlling data flush
+e0731e7 f2fs: record dirty status of regular/symlink inode
+8f9e941 f2fs: introduce __f2fs_commit_super
+d64d524 f2fs: relocate tracepoint of write_checkpoint
+7f01508 f2fs: don't grab super block buffer header all the time
+a59e15b f2fs: backup raw_super in sbi
+e983b37 f2fs: fix to reset variable correctlly
+0e8ed16 f2fs: introduce __remove_dirty_inode
+c716ff4 f2fs: introduce dirty list node in inode info
+ac23880 f2fs: rename {add,remove,release}_dirty_inode to {add,remove,release}_ino_entry
+c40c861 f2fs: add symbol to avoid any confusion with tools
+c0ba181 f2fs: do more integrity verification for superblock
+a849051 f2fs: fix to update variable correctly when skip a unmapped block
+b1e711d f2fs: write only the pages in range during defragment
+67fe313 f2fs: clean up node page updating flow
+02673e3 f2fs: use lock_buffer when changing superblock
+4db26e5 f2fs: refactor f2fs_commit_super
+9fe212e f2fs: enhance the bit operation for SSR
+ca44050 f2fs: fix to convert inline inode in ->setattr
+6dff223 f2fs: use sbi->blocks_per_seg to avoid unnecessary calculation
+a61eae3 f2fs: kill f2fs_drop_largest_extent
+48eb869 f2fs: clean up argument of recover_data
+26c84b6 f2fs: clean up code with __has_cursum_space
+15b56ad f2fs: clean up error path in f2fs_readdir
+dafadb6 f2fs: do not recover from previous remained wrong dnodes
+a69b47f f2fs: avoid deadlock in f2fs_shrink_extent_tree
+153ad9a f2fs: fix to report error in f2fs_readdir
+fe3408f f2fs: clear page uptodate when dropping cache for atomic write
+de0dcba f2fs: optimize __find_rev_next_bit
+9202409 f2fs: fix to remove directory inode from dirty list
+9ed17ef f2fs: fix to enable missing ioctl interfaces in ->compat_ioctl
+b57d184 f2fs: fix memory leak of kobject in error path of fill_super
+81df405 f2fs: support file defragment
+9df30bb f2fs: commit atomic written page in LFS mode
+1eb98df f2fs: report error of f2fs_create_root_stats
+bf54826 f2fs: Fix a system panic caused by f2fs_follow_link
+57bbeed f2fs: catch up to v4.4-rc1
+
+   * lineage/cve/
+9e65317 cve_tracker: check cve links for sane formatting
+
+   * lineage/jenkins/
+e16f1f6 hudson: Pull LG 8996 devices
+
+   * lineage/mirror/
+9fd3e37 Updated to 11-Aug-2017 20:31:01 UTC
+
+   * lineage/scripts/
+d294173 maintainers.py: remove TODO install method check
+
+   * lineage/slackbot/
+7f7574d Add support for summarising Gerrit changes
+
+   * lineage/updater/
+a21a4ea Regenerate device dependency mappings
+
+   * lineage/website/
+9fb7f3f Fix mis-spelling of TheScarastic
+
+   * lineage/wiki/
+da16b2a Add a new way to migrate between signed builds
+
+   * packages/apps/AudioFX/
+97f5e59 Automatic translation import
+
+   * packages/apps/Bluetooth/
+c129b6c Automatic translation import
+
+   * packages/apps/CMBugReport/
+1c87436 Automatic translation import
+
+   * packages/apps/CMParts/
+a0d9cb7 Automatic translation import
+
+   * packages/apps/CMUpdater/
+ee15bae Fix No updates found for users with Turkish Locale
+
+   * packages/apps/Calendar/
+edb28f5 Automatic translation import
+
+   * packages/apps/Camera2/
+867064c Automatic translation import
+
+   * packages/apps/CarrierConfig/
+ea0ad38 Fix up incorrect domestic roaming and non-roaming cases
+
+   * packages/apps/CellBroadcastReceiver/
+d541118 Automatic translation import
+
+   * packages/apps/Contacts/
+88e7b27 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+bf4ddba Automatic translation import
+
+   * packages/apps/DeskClock/
+33a443d Automatic translation import
+
+   * packages/apps/Dialer/
+4dff7aa Automatic translation import
+
+   * packages/apps/Eleven/
+153a2a1 Automatic translation import
+
+   * packages/apps/Email/
+c44eaf0 Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+de00e09 Automatic translation import
+
+   * packages/apps/FlipFlap/
+6a76690 Automatic translation import
+
+   * packages/apps/Gallery2/
+50cdda7 Automatic translation import
+
+   * packages/apps/HTMLViewer/
+ed791de Automatic translation import
+
+   * packages/apps/Jelly/
+d76965a Jelly: Improve incognito mode privacy
+
+   * packages/apps/LockClock/
+c6d8d03 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+886e7ce Automatic translation import
+
+   * packages/apps/Messaging/
+76d63b3 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+673b0ca Automatic translation import
+
+   * packages/apps/Settings/
+98dcb70 Automatic translation import
+
+   * packages/apps/SetupWizard/
+3deda34 Automatic translation import
+
+   * packages/apps/Snap/
+0eed750 Automatic translation import
+
+   * packages/apps/Tag/
+25ee4c5 Automatic translation import
+
+   * packages/apps/Terminal/
+4e5fd56 Automatic translation import
+
+   * packages/apps/Trebuchet/
+cd4a3c3 Automatic translation import
+
+   * packages/apps/TvSettings/
+213a2ca Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+12b8906 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+cd62db3 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+0bfe0b6 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+581eab3 Automatic translation import
+
+   * packages/resources/devicesettings/
+34a12f1 Automatic translation import
+
+   * packages/services/Telecomm/
+5f8e16d Automatic translation import
+
+   * packages/services/Telephony/
+6890143 Telephony: Correct missing italian translation
+
+   * system/bt/
+80cca31 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
+
+   * vendor/cm/
+3af5191 Add Correios Celular (BR) APN
+
+   * vendor/cmsdk/
+05c689d Automatic translation import
+
+   * vendor/zuk/z2_plus/
+ca9fa76 Remove libNimsWrap.so
+c083ac4 Remove some unneeded blobs
+
+===================================
+Since Sat Jul 22 14:13:05 UTC 2017
+===================================
+
+
+   * external/chromium-webview/
+e205b2a Update webview
+
+   * kernel/zuk/msm8996/
+f8dc42b Merge b3b5cc2b1a9f0f75057824b350651a04c92a904e on remote branch
+
+   * packages/apps/Exchange/
+b17bee6 Automatic translation import
+
+   * packages/apps/Recorder/
+5c6ba77 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+dcc2f12 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+a5da26d Automatic translation import
+
+   * packages/providers/WeatherProvider/
+ba9f78f Automatic translation import
+
+   * system/netd/
+b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+53f0e73 Automatic translation import
+
+===================================
+Since Fri Jul 14 16:57:44 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+bc98426 Remove zRAM stuff.
+e443f87 z2_plus: 2nd CPU kryo optimization
+8c38d08 Enable powersave_bias on both clusters.
+4561079 noatime implies nodiratime.
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+b3b5cc2 Promotion of kernel.lnx.3.18.c5-170720.
+0ff0760 Promotion of kernel.lnx.3.18.c5-170719.
+ff81fed Merge "Perf: arm64: avoid use of uninitialized variable"
+ab3d1307 Merge "cnss_pci: fix the race condition in firmware file setup"
+e028d19 Merge "usb: gadget: Fix incorrect ISOC data transfer PIDs"
+0e9ee33 Merge "msm: isp: Fix Ub allocation for image WM"
+ee80595 Perf: arm64: avoid use of uninitialized variable
+8fe33c6 Merge "msm: mdss: Do not apply bl scale if current back light is zero"
+e866e46 Promotion of kernel.lnx.3.18.c5-170715.
+c2b792b Merge "mmc: sdhci-msm: Don't turnoff Vcc during initialization"
+
+   * lineage/stats/
+8b0688e Force unicode strings
+
+===================================
+Since Fri Jul  7 19:03:17 UTC 2017
+===================================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * device/zuk/z2_plus/
+cbd5df3 extract-files: fix device/vendor (wrong way round)
+a523434 Pin qti-telephony-common.jar
+4eb3343 Unify proprietary files into a single txt
+0b460f1 Update extract-files.sh to the latest template
+
+   * hardware/qcom/display-caf/msm8998/
+7f20a06 Don't build lights module if vendor supplies it
+
+   * hardware/qcom/media-caf/msm8998/
+2784e0e mm-video: Disable proprietary extension
+
+   * kernel/zuk/msm8996/
+ab63df5 Promotion of kernel.lnx.3.18.c5-170714.
+87e3dfa mmc: sdhci-msm: Don't turnoff Vcc during initialization
+0421d49 Promotion of kernel.lnx.3.18.c5-170713.
+db752dd Merge "msm: kgsl: Use vma_area_struct with proper locks"
+9fc8675 Merge "MMC : card: Check for card status incase of timeout error"
+ac98c53 Merge "MMC : cmdq_hci: clear interrupt after halt in case of error"
+d1ba676 Merge "drm/msm: Fix possible overflow issue in submit_cmd"
+0bb6ed9 cnss_pci: fix the race condition in firmware file setup
+7c52617 Merge "usb: dwc3: gadget: Fix start transfer errors for ISOC endpoints"
+cc11e6c Merge "usb: dwc3: Fix assignment of EP transfer resources"
+cb3edd0 Merge "msm: camera: sensor:validating the flash initialization parameters"
+59059a5 Merge "coresight: tmc: Fix use after free issue with tmc read"
+d72cf62 Merge "mmc: core: Remove unused variable"
+704512a msm: kgsl: Use vma_area_struct with proper locks
+7623f8c MMC : card: Check for card status incase of timeout error
+1fc0c53 MMC : cmdq_hci: clear interrupt after halt in case of error
+e0b57df Promotion of kernel.lnx.3.18.c5-170712.1.
+6ceb7f2 usb: dwc3: gadget: Fix start transfer errors for ISOC endpoints
+6e9c00a Merge "diag: Add proper checks to fix possible out-of-bound issue"
+5b071e2 Merge "msm: mdss: fix null pointer dereferencing"
+bd328e7 drm/msm: Fix possible overflow issue in submit_cmd
+65de277 Promotion of kernel.lnx.3.18.c5-170712.
+6d44a27 usb: dwc3: Fix assignment of EP transfer resources
+49529a8 Merge "USB: phy-msm-qusb: Enable autoresume only when device is connected"
+fd5b360 Merge "ARM: dts: msm: Use override mem-acc settings for msm8940"
+dabe09d Merge "regulator: mem-acc: Add range check based override fuse version map"
+85c3a1b Promotion of kernel.lnx.3.18.c5-170711.
+5ac202d diag: Add proper checks to fix possible out-of-bound issue
+f43e2f0 msm: camera: sensor:validating the flash initialization parameters
+b541413 coresight: tmc: Fix use after free issue with tmc read
+d95557c Promotion of kernel.lnx.3.18.c5-170710.
+c854ece Merge "ASoC: msm: Fix kernel crash in "Speaker Function" mixer control"
+c95c60d Merge "ARM: dts: msm: Adding AF support for Rear Aux Camera"
+c7f703f Merge "ASoC: msm: qdsp6v2: add size check to fix out of bounds issue"
+0cfd69d Merge "msm: sensor: actuator: add conditional check for ioctl"
+4412695 Merge "msm: sensor: Fix for variable being de-referenced without proper check"
+07e94ce Merge "ion: fix logical-not comparison warning"
+2157974 Merge "fbdev: msm: Allocate fd with O_CLOEXEC flag"
+84b8f8a Merge "input: synaptics_dsx: validate bounds of intr_reg_num"
+7d30159 Merge "compat_qcedev: Fix accessing userspace memory in kernel space"
+56980a6 msm: isp: Fix Ub allocation for image WM
+e52e75f Merge b99bb1b5259d26c42658613a2b78643b5da23b2e on remote branch
+18dff16 Promotion of kernel.lnx.3.18.c5-170708.
+
+   * lineage/crowdin/
+63d845b crowdin: Move huashan to cm-14.1 branch for devicesettings
+
+   * system/core/
+09daba9 logcat: Add missing newline to read failure
+
+   * vendor/zuk/z2_plus/
+165f9f3 Regenerate makefiles
+
