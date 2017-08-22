@@ -1,0 +1,325 @@
+===================================
+Since Fri Aug 11 20:41:38 UTC 2017
+===================================
+
+
+   * device/qcom/sepolicy/
+c631819 Use set_prop() macro for property sets
+
+   * device/zuk/z2_plus/
+53831f3 z2_plus: Remove fpc delays after authentication cancelled
+
+   * frameworks/base/
+e8836cd Tweak Privacy Guard dialog layout
+
+   * frameworks/native/
+afbd1c1 InputDispatcher: On keypress, deliver keycode to pokeUserActivity
+
+   * hardware/broadcom/wlan/
+5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1
+
+   * hardware/cyanogen/
+e2f8e45 livedisplay: SDM: Add support for DCI-P3 display mode
+
+   * hardware/qcom/audio-caf/msm8998/
+eba183e Merge tag 'LA.UM.5.7.r1-10500-8x98.0' into cm-14.1-caf-8998
+
+   * hardware/qcom/bt-caf/
+328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"
+
+   * hardware/ril-caf/
+d8290dd ril: Allow targets to disable Clang
+
+   * kernel/zuk/msm8996/
+1c1004a Rename defconfig
+
+   * lineage/ansible/
+2202ddb stats: use handlers
+
+   * lineage/cve/
+b0bfef2 utils: fix py2 compat
+
+   * lineage/jenkins/
+7268bb5 hudson: Ship weeklies for taoshan
+
+   * lineage/mirror/
+74199a3 Updated to 18-Aug-2017 20:31:01 UTC
+
+   * lineage/slackbot/
+a2d7fdc slackbot: include pygerrit2 as a dependency
+
+   * lineage/updater/
+dd380d8 Regenerate device dependency mappings
+
+   * lineage/website/
+1fc52bd Summer Survey
+
+   * lineage/wiki/
+6b7d349 wiki: Add taoshan
+
+   * packages/apps/AudioFX/
+39c6ce2 Automatic translation import
+
+   * packages/apps/CMParts/
+8ba6fe3 Automatic translation import
+
+   * packages/apps/CMUpdater/
+93f7a4b Automatic translation import
+
+   * packages/apps/DeskClock/
+436ce6a clock: Reset profile if profile is already selected
+
+   * packages/apps/Eleven/
+c3fd3fd Automatic translation import
+
+   * packages/apps/FlipFlap/
+c2f96c2 Automatic translation import
+
+   * packages/apps/Jelly/
+2a6aa75 Fix NPE.
+
+   * packages/apps/Messaging/
+0b0899a Automatic translation import
+
+   * packages/apps/Settings/
+5bb707b Automatic translation import
+
+   * packages/apps/SetupWizard/
+f79f8cf Automatic translation import
+
+   * packages/apps/Snap/
+e6ab315 Automatic translation import
+
+   * packages/apps/Terminal/
+3f23959 Automatic translation import
+
+   * packages/apps/Trebuchet/
+1f15340 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+8a9f67d Automatic translation import
+
+   * packages/resources/devicesettings/
+9620e09 Automatic translation import
+
+   * vendor/cm/
+b0ea62a envsetup: Fix installboot on ZSH
+
+===================================
+Since Fri Aug 11 20:41:38 UTC 2017
+===================================
+
+
+===================================
+Since Fri Jul 28 19:07:05 UTC 2017
+===================================
+
+
+   * android/
+ad2d94d manifest: android-7.1.2_r24 -> android-7.1.2_r29
+
+   * build/
+2929be0 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * device/zuk/z2_plus/
+444889c More updates from ZUI 2.5.412.
+0d5e58b Import thermal-engine from ZUI 2.5.412.
+cdc8fbb There isn't any libNimsWrap.so on ZUI 2.5.412.
+71de95d proprietary-files: Remove some unneeded blobs
+ac5cf4b z2_plus: sepolicy: Actually allow netmgrd to create logs
+32cf49a z2_plus: Drop NET_RAW and NET_ADMIN from qti
+035c632 z2_plus: Remove DAC override permission from netmgrd
+6e95ae7 z2_plus: Grant netmgrd proper unix perms
+12a73a1 z2_plus: rootdir: Enable ZRAM for msm8996 targets
+ffc0ccd BoardConfig: Change defconfig name
+f663033 Add Italian translation for U-Touch settings (#113)
+bc80fd3 Revert "Enable powersave_bias on both clusters."
+56405ff z2_plus: data-ipa-cfg-mgr: Disable DEBUG for userdebug builds
+1a196d8 z2_plus: data-ipa-cfg-mgr: Remove verbose cflag
+
+   * external/skia/
+da4a326 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/av/
+2b7a3aa Camera: Add NULL check on mDevice to avoid crash.
+
+   * frameworks/opt/net/wifi/
+1f8fc74 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/opt/telephony/
+b1a8579 Telephony: Keep preferred SMS Sim
+
+   * hardware/qcom/audio-caf/msm8916/
+7fcca3e Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8937/
+9dbd062 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8952/
+34f4914 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8960/
+e248666 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8974/
+0d8579c Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8994/
+9dcddd7 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8996/
+5b12547 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio/default/
+a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * hardware/qcom/display-caf/apq8084/
+e2f4340 cec: Fix breakage due to API change
+
+   * hardware/qcom/fm/
+dcad703 Automatic translation import
+
+   * hardware/qcom/media-caf/apq8084/
+02e5750 videopp: fix include paths for lineage
+
+   * hardware/qcom/media-caf/msm8916/
+ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8994/
+1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
+
+   * lineage/scripts/
+d294173 maintainers.py: remove TODO install method check
+
+   * packages/apps/Bluetooth/
+c129b6c Automatic translation import
+
+   * packages/apps/CMBugReport/
+1c87436 Automatic translation import
+
+   * packages/apps/Calendar/
+edb28f5 Automatic translation import
+
+   * packages/apps/Camera2/
+867064c Automatic translation import
+
+   * packages/apps/CarrierConfig/
+ea0ad38 Fix up incorrect domestic roaming and non-roaming cases
+
+   * packages/apps/CellBroadcastReceiver/
+d541118 Automatic translation import
+
+   * packages/apps/Contacts/
+88e7b27 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+bf4ddba Automatic translation import
+
+   * packages/apps/Dialer/
+4dff7aa Automatic translation import
+
+   * packages/apps/Email/
+c44eaf0 Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+de00e09 Automatic translation import
+
+   * packages/apps/Gallery2/
+50cdda7 Automatic translation import
+
+   * packages/apps/HTMLViewer/
+ed791de Automatic translation import
+
+   * packages/apps/LockClock/
+c6d8d03 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+886e7ce Automatic translation import
+
+   * packages/apps/PhoneCommon/
+673b0ca Automatic translation import
+
+   * packages/apps/Tag/
+25ee4c5 Automatic translation import
+
+   * packages/apps/TvSettings/
+213a2ca Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+cd62db3 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+0bfe0b6 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+581eab3 Automatic translation import
+
+   * packages/services/Telecomm/
+5f8e16d Automatic translation import
+
+   * packages/services/Telephony/
+6890143 Telephony: Correct missing italian translation
+
+   * system/bt/
+80cca31 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
+
+   * vendor/cmsdk/
+05c689d Automatic translation import
+
+   * vendor/zuk/z2_plus/
+ca9fa76 Remove libNimsWrap.so
+c083ac4 Remove some unneeded blobs
+
+===================================
+Since Sat Jul 22 14:13:05 UTC 2017
+===================================
+
+
+   * external/chromium-webview/
+e205b2a Update webview
+
+   * packages/apps/Exchange/
+b17bee6 Automatic translation import
+
+   * packages/apps/Recorder/
+5c6ba77 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+dcc2f12 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+a5da26d Automatic translation import
+
+   * packages/providers/WeatherProvider/
+ba9f78f Automatic translation import
+
+   * system/netd/
+b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+53f0e73 Automatic translation import
+
+===================================
+Since Fri Jul 14 16:57:44 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+bc98426 Remove zRAM stuff.
+e443f87 z2_plus: 2nd CPU kryo optimization
+8c38d08 Enable powersave_bias on both clusters.
+4561079 noatime implies nodiratime.
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+241de94 Import camera driver from ZUI 2.5.415.
+b88aa01 dts: Set 133MHz as gpu idle freq
+
+   * lineage/stats/
+8b0688e Force unicode strings
+
