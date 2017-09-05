@@ -1,0 +1,524 @@
+===================================
+Since Tue Aug 22 13:23:48 UTC 2017
+===================================
+
+
+   * android/
+d834de8 cm: Remove unused projects
+
+   * device/zuk/msm8996-common/
+79cf93c msm8996-common: gps: reduce location logspam
+6a1f745 Revert "Remove perfd"
+4f8e9ec Revert "Remove iop service"
+1841c67 Revert "Import init.qcom.sh, init.qcom.usb.{rc,sh} and ueventd.qcom.rc from ZUI 2.5.435."
+e7551f9 msm8996-common: Move Lineage specific overlays to overlay-lineage (partially)
+d1ccbaf msm8996-common: Decommonize sensor configs
+49a42d8 msm8996-common: commonize GPS blobs
+8a0d194 msm8996-common: decommonize eeprom lib for backcamera
+2a52a5b Decommonize camera sensor blob for back camera
+dfe4be8 Revert "Re-enable SCHED_BOOST."
+923e460 msm8996-common: rootdir: delete duplicated stuff for charger
+a1508c7 msm8996-common: add libquipc_os_api.so
+45a3ed6 msm8996-common: rootdir: move hvdcp_opti config to z2_row
+6a77058 Merge branch 'staging/common-vendor' into cm-14.1
+c0999b5 msm8996-common: proprietary-files: add missing camera blob
+c8a375e Merge remote-tracking branch 'z2-dev/cm-14.1' into staging/common-vendor
+e67d288 Remove local SDCLANG.
+5fc8e92 msm8996-common: Pin services dex in /data
+ca540d5 Restore config.xml. It's the same for both devices.
+9dac462 msm8996-common: remove some unneeded blobs
+f5803b4 msm8996-common: proprietary-files: fix typo
+001c9f9 Update camera bobs for common device
+85d6bee msm8996-common: proprietary-files: add ssr_setup
+276888d msm8996-common: Update and pin graphics blobs from a traceable source
+0b825d2 Import qti-telephony-common from gemini
+7255e26 msm8996-common: proprietary-files: move libimsmedia_jni to proper section
+3dee4b5 Remove z2_plus overlays.
+6ac6db5 Re-enable SCHED_BOOST.
+04af049 tfa9890: Add SELinux policy for audio PA
+52b2562 Simplify msm8996.mk. These values already exist in phone-xxhdpi-3072-hwui-memory.mk.
+4966cf4 Avoid use values of phone-xxxhdpi-4096-dalvik-heap.mk on devices with 3GB or less RAM.
+5716383 msm8996-common: Inherit from common vendor
+fa3f3c4 Add extract-files.sh and setup-makefiles.sh
+17a60d2 Add proprietary-files.txt for common blobs
+f0266d2 Revert "msm8996-common: Sync GPS and Location API with upstream"
+22c5164 msm8996-common: Sync GPS and Location API with upstream
+665d8dc sepolicy: Fix some denials
+23a0de1 sepolicy: Address few missing denials
+efabc41 msm8996-common: Add board config entry for android_filesystem_config.h
+d41b3d9 msm8996-common: clear thermal-engine leftovers
+0fee07b msm8996-common: rootdir: Remove references to time_daemon
+47cfdf3 msm8996-common: delete qmuxd leftovers
+2add016 Remove iop service
+2d74ceb Remove perfd
+cd97dac Configure msm-thermal-simple driver
+8485488 Remove msm-thermal, thermal-engine, and bcl
+e235292 Optimize power config on boot
+487e038 rootdir: Import some ramdisk edits from the zui 2.5.435
+69c952c rootdir: Update fs tune from marlin
+fade365 Readd init.target.rc back
+a1e6e3f Import init.qcom.bt.sh from ZUI 2.5.435.
+7ab1963 Import init.qcom.sh, init.qcom.usb.{rc,sh} and ueventd.qcom.rc from ZUI 2.5.435.
+91ca0e3 ipacm: fix the heap-use-after-free issue on bootup
+8318394 IPACM: fix the security issue in ConntrackClient
+35a95d6 IPACM: fix security issue in querying if index
+
+   * device/zuk/z2_plus/
+267c12f z2_plus: Decommonize sensor configs
+7249113 z2_plus: commonize GPS blobs
+d8d6dc9 z2_plus: decommonize eeprom lib for backcamera
+8bdaaa7 Decommonize camera sensor blob for back camera
+cc0f33c Merge branch 'staging/common-vendor' into cm-14.1
+8c1025e z2_plus: remove unneeded blob
+e44c39f Update camera blobs for common device
+cbe5239 z2_plus: proprietary_files: remove some useless blobs
+8981fab z2_plus: proprietary-files: delete duplicate graphic blob
+29a86dd z2_plus: move ssr_setup blob to msm8996-common
+cfcd340 z2_plus: extract-files.sh: expand params adequately when calling common script
+2b7b313 z2_plus: Use extractors from msm8996-common
+b8c1f5f z2_plus: proprietary-files: remove common blobs
+7e775ff z2_plus: roll back and pin graphics blobs
+61e8b61 z2_plus: fix com.android.phone FC
+23bff2c z2_plus: update proprietary-files.txt for ZUI 2.5.412
+9070241 Merge branch 'staging/cm-14.1' into staging/cm-14.1-commonized
+2535d7b proprietary-files: update for N camera blobs
+b98cec8 proprietary-files: remove init.qcom.zram.sh
+
+   * device/zuk/z2_row/
+34ec6f3 Cleanup blobs.
+495fd93 z2_row: Decommonize sensor configs
+2df2039 z2_row: commonize GPS blobs
+2f995d1 z2_row: decommonize eeprom lib for backcamera
+c988c9b z2_row: fix path for init.zuk.rc.
+56de7e6 Decommonize camera sensor blob for back camera
+ec11757 z2_row: rootdir: mount system before starting hvdcp_opti
+2ff2514 Merge remote-tracking branch 'z2-dev/staging/common-vendor' into cm-14.1
+df1c96e z2_row: rootdir: create init.zuk.rc with hvdcp_opti configs
+3f36432 Merge branch 'staging/common-vendor' into cm-14.1
+2f81d9d Remove config.xml. We use msm8996-common's config.xml.
+2f854f7 Update camera blobs for common device
+aa3d9d3 No dexpreopt. No oat/odex in system.
+f23dcee z2_row: proprietary-files: remove TimeService and time_daemon
+155796b z2_plus: extract-files.sh: expand params adequately when calling common script
+53a750e z2_row: Use extractors from msm8996-common
+50ea2ce z2_row: delete common blobs from proprietary-files
+804c2db No dexpreopt. No oat/odex in system.
+1e24c5e Correct the model (again) and add build fingerprint with user/release-keys
+09a4d6a correct the model.
+2e29723 Import power_profile overylay from ZUI 2.5.435.
+
+   * frameworks/av/
+be37655 omx: Skip the whole dataspace signaling on legacy QCOM
+
+   * frameworks/base/
+7467536 Don't disable the GPS prematurely
+
+   * frameworks/opt/telephony/
+b231815 Allow to ignore presentation indicator of outgoing calls [2/3]
+
+   * kernel/zuk/msm8996/
+a942cde Fix yellow screen mode
+
+   * lineage/crowdin/
+6787fa9 config: Remove more unused projects
+
+   * lineage/cve/
+dbd9477 Regenerate kernel->device mappings
+
+   * lineage/jenkins/
+c591757 hudson: Ship Galaxy Tab E devices
+
+   * lineage/mirror/
+1258943 Updated to 29-Aug-2017 20:31:15 UTC
+
+   * lineage/updater/
+557fdd9 Regenerate device dependency mappings
+
+   * lineage/website/
+4b62235 www: add wiki link to about page
+
+   * lineage/wiki/
+4992b11 device_build: Add yasm as a build prerequisite
+
+   * packages/apps/ContactsCommon/
+8b38e68 ContactsCommon: Fix possible NPE
+
+   * packages/apps/Eleven/
+943d43e Eleven: Fix restoring user settings
+
+   * packages/apps/Jelly/
+5f4c6b0 Jelly: Add elevation effect to searchBar
+
+   * packages/apps/Settings/
+2701395 AppOpsDetails: Generate correct summary when changing list prefs
+
+   * packages/apps/SetupWizard/
+f7d9926 SetupWizard: Fix the accessibility services gesture
+
+   * packages/apps/Snap/
+fef825d Snap: fix highspeed and high-framerate video recording
+
+   * packages/apps/UnifiedEmail/
+2dd00df Email: Fix led notification settings
+
+   * packages/apps/Updater/
+6f3dfda Improve the automatic updates checks
+
+   * packages/resources/devicesettings/
+ff0aa81 Add strings for devices' custom gesture handlers
+
+   * packages/services/Telephony/
+33954d1 Allow to ignore presentation indicator of outgoing calls [3/3]
+
+   * vendor/cm/
+f15919a cm: Remove old Changelog file
+
+   * vendor/cmsdk/
+621f229 cmsdk: Disable unused services
+
+   * vendor/zuk/
+6c4e04b msm8996-common: Roll back graphics blobs to the pinned version
+34b2b81 msm8996-common: add back libuiblur
+7efe1d8 Decommonize sensor configs
+9bd88cd Commonize GPS blobs
+5d60056 Updatr blobs from ZUI 3.1.0505 dev
+6a39fa3 Decommonize eeprom lib for backcamera
+4c8d845 Decommonize camera sensor blob for back camera
+50b3761 msm8996-common: add libquipc_os_api.so
+219e273 msm8996-common: add missing camera blob
+91f3a75 Remove a bunch of unneeded blobs
+d896b9d msm8996-common: Fix typo and add missing lib
+0779e8f Update bin/ssr_setup from ZUI 2.5.435
+bc6630e Update camera blobs:
+a36cc60 z2_plus: remove some useless blobs
+c29b998 z2_plus: remove duplicate blob
+e04dd49 Commonize bin/ssr_setup
+f0f8ff0 msm8996-common: update graphics blobs
+a3cfa56 Update qti-telephony-common from gemini:
+77071c3 Use common vendor for z2_row
+ee94375 Use common vendor for z2_plus
+1e81384 Add 'z2_row/' from commit '10d8e5a9c9909a8db9d423548f5acb83460d8e0e'
+4ffb200 Add 'z2_plus/' from commit 'b041c7034797d7e0b2847bebaec4ce7d510ff85d'
+abff5d5 Initial commit with README
+b041c70 z2_plus: Roll back graphics blobs
+93bf20c Roll back qti-telephony and add libimsmedia_jni.so
+758b0e4 Update blobs to ZUI 2.5.412
+16e773c Merge branch 'staging/cm-14.1' into cm-14.1
+e704816 Update camera blobs to N (thanks @davidevinavil)
+30cda68 Remove init.qcom.zram.sh
+
+===================================
+Since Fri Aug 11 20:41:38 UTC 2017
+===================================
+
+
+   * device/qcom/sepolicy/
+96615af msm8974: Do not grant DAC override permission to netmgrd
+
+   * device/zuk/z2_plus/
+d462e5f z2_plus: Remove fpc delays after authentication cancelled
+53831f3 z2_plus: Remove fpc delays after authentication cancelled
+
+   * frameworks/native/
+9fe7f3c InputDispatcher_test: fix pokeUserActivity after afbd1c1265de317f5ecf44cd400586c53a001ee7
+
+   * hardware/broadcom/wlan/
+5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1
+
+   * hardware/cyanogen/
+e2f8e45 livedisplay: SDM: Add support for DCI-P3 display mode
+
+   * hardware/qcom/audio-caf/msm8998/
+eba183e Merge tag 'LA.UM.5.7.r1-10500-8x98.0' into cm-14.1-caf-8998
+
+   * hardware/qcom/bt-caf/
+328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"
+
+   * hardware/qcom/wlan-caf/
+93c8631 WifiHAL: Free the stats received so far if requestResponse() fails
+
+   * hardware/ril-caf/
+d8290dd ril: Allow targets to disable Clang
+
+   * lineage/ansible/
+2202ddb stats: use handlers
+
+   * lineage/slackbot/
+a2d7fdc slackbot: include pygerrit2 as a dependency
+
+   * packages/apps/AudioFX/
+39c6ce2 Automatic translation import
+
+   * packages/apps/CMParts/
+8ba6fe3 Automatic translation import
+
+   * packages/apps/DeskClock/
+436ce6a clock: Reset profile if profile is already selected
+
+   * packages/apps/FlipFlap/
+c2f96c2 Automatic translation import
+
+   * packages/apps/Messaging/
+0b0899a Automatic translation import
+
+   * packages/apps/Terminal/
+3f23959 Automatic translation import
+
+   * packages/apps/Trebuchet/
+1f15340 Automatic translation import
+
+===================================
+Since Fri Aug 11 20:41:38 UTC 2017
+===================================
+
+
+===================================
+Since Fri Jul 28 19:07:05 UTC 2017
+===================================
+
+
+   * build/
+2929be0 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * device/zuk/msm8996-common/
+e8fcb6f Transform into common tree
+444889c More updates from ZUI 2.5.412.
+0d5e58b Import thermal-engine from ZUI 2.5.412.
+cdc8fbb There isn't any libNimsWrap.so on ZUI 2.5.412.
+71de95d proprietary-files: Remove some unneeded blobs
+ac5cf4b z2_plus: sepolicy: Actually allow netmgrd to create logs
+32cf49a z2_plus: Drop NET_RAW and NET_ADMIN from qti
+035c632 z2_plus: Remove DAC override permission from netmgrd
+6e95ae7 z2_plus: Grant netmgrd proper unix perms
+12a73a1 z2_plus: rootdir: Enable ZRAM for msm8996 targets
+ffc0ccd BoardConfig: Change defconfig name
+f663033 Add Italian translation for U-Touch settings (#113)
+bc80fd3 Revert "Enable powersave_bias on both clusters."
+56405ff z2_plus: data-ipa-cfg-mgr: Disable DEBUG for userdebug builds
+1a196d8 z2_plus: data-ipa-cfg-mgr: Remove verbose cflag
+
+   * device/zuk/z2_plus/
+f0b7b0d lineage.mk: fix device name
+774fcb0 Remove system.prop
+ddad322 lineage.mk: simplify a bit
+bdcae62 lineage.dependencies: set common repo as only dependency
+c0681cb Remove inherited stuff from device and boardconfig
+965351d Android.mk: remove symlinks
+ac28ab0 Remove stuff that will be inherited from common repo
+444889c More updates from ZUI 2.5.412.
+0d5e58b Import thermal-engine from ZUI 2.5.412.
+cdc8fbb There isn't any libNimsWrap.so on ZUI 2.5.412.
+71de95d proprietary-files: Remove some unneeded blobs
+ac5cf4b z2_plus: sepolicy: Actually allow netmgrd to create logs
+32cf49a z2_plus: Drop NET_RAW and NET_ADMIN from qti
+035c632 z2_plus: Remove DAC override permission from netmgrd
+6e95ae7 z2_plus: Grant netmgrd proper unix perms
+12a73a1 z2_plus: rootdir: Enable ZRAM for msm8996 targets
+ffc0ccd BoardConfig: Change defconfig name
+f663033 Add Italian translation for U-Touch settings (#113)
+bc80fd3 Revert "Enable powersave_bias on both clusters."
+56405ff z2_plus: data-ipa-cfg-mgr: Disable DEBUG for userdebug builds
+1a196d8 z2_plus: data-ipa-cfg-mgr: Remove verbose cflag
+
+   * device/zuk/z2_row/
+babb839 Fix device name, and do not override fingerprint
+ff874f9 Restore overlays from z2_row
+5ebe9e3 Restore z2_row audio configs
+19f5a48 z2_plus -> z2_row
+8df928d Import commonized device structure from z2_plus
+32ee5f8 z2_row: Use Snap instead of SnapdragonCamera.
+777abfe Import thermal-engine from ZUI 2.5.435.
+046b715 More updates from ZUI 2.5.435.
+e8f0010 There isn't any libNimsWrap.so on ZUI 2.5.435.
+45eacf0 Add hvdcp_opti service to support QC3.0 in off-mode charging
+351240a Add Italian translation for U-Touch settings (#113)
+337c333 Update button_settings.xml
+16d2e21 values-pl: remove untranslated U-Touch label
+61e2193 Added U-Touch translation: Polish
+4fbb7c1 Translation correction
+b918881 overlay: Remove duplicate "double tap power for camera" setting.
+bdb2bd1 overlay: Fix charsets of chinese strings
+2f0b977 Add chinese translations for U-Touch
+e885016 U-Touch: Add Czech strings
+0b6e758 add Japanese Strings for U-Touch
+d510067 overlay: German translation for U-Touch (thanks marcolino)
+1352734 updated translations for pt-rPT locale
+eb213af translated u-touch strings to pt-pt (Portuguese Portugal)
+b5da47f Add Portuguese translation for U-Touch
+71ee8fa Add Dutch translation for U-Touch
+9201287 overlay: cleanup button overlay and add setting for longtap
+bfcb982 overlay: Better UI for U-Touch settings (slight hack)
+0941567 overlay: Only overlay resources that are actually in CMParts.
+2534f0e overlay: Add english strings for UTouch in all locales (pull requests for translations welcome!)
+416bcd4 Rename button settings to UTouch gestures (thanks to Fedor)
+92f3cfb z2_plus: Doze: Perform operations as current user
+d34deef msm8996-common: data-ipa-cfg-mgr: Remove verbose cflag
+65dfca4 Removed old config moved to cm vendors.
+ddfef94 Fixed PRODUCT_NAME.
+ddfa3f5 Use Lineage vendors, rename lunch_combos, remove useless files...
+97f6c41 Removed AEX overlays. Useless for Lineage.
+45c10ca Revert "camera: Add libc_shim"
+cc4ec7e defconfig: Change defconfig to match dd3boh kernel source
+0ee3cf4 doze: Update overlay
+
+   * external/skia/
+da4a326 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * frameworks/opt/net/wifi/
+1f8fc74 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * hardware/qcom/audio-caf/msm8916/
+7fcca3e Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8937/
+9dbd062 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8952/
+34f4914 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8960/
+e248666 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8974/
+0d8579c Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8994/
+9dcddd7 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio-caf/msm8996/
+5b12547 Fix security vulnerability: Equalizer setParameter memory overflow
+
+   * hardware/qcom/audio/default/
+a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1
+
+   * hardware/qcom/display-caf/apq8084/
+e2f4340 cec: Fix breakage due to API change
+
+   * hardware/qcom/fm/
+dcad703 Automatic translation import
+
+   * hardware/qcom/media-caf/apq8084/
+02e5750 videopp: fix include paths for lineage
+
+   * hardware/qcom/media-caf/msm8916/
+ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8994/
+1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
+
+   * lineage/scripts/
+d294173 maintainers.py: remove TODO install method check
+
+   * packages/apps/Bluetooth/
+c129b6c Automatic translation import
+
+   * packages/apps/Calendar/
+edb28f5 Automatic translation import
+
+   * packages/apps/Camera2/
+867064c Automatic translation import
+
+   * packages/apps/CarrierConfig/
+ea0ad38 Fix up incorrect domestic roaming and non-roaming cases
+
+   * packages/apps/CellBroadcastReceiver/
+d541118 Automatic translation import
+
+   * packages/apps/Contacts/
+88e7b27 Automatic translation import
+
+   * packages/apps/Dialer/
+4dff7aa Automatic translation import
+
+   * packages/apps/Email/
+c44eaf0 Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+de00e09 Automatic translation import
+
+   * packages/apps/Gallery2/
+50cdda7 Automatic translation import
+
+   * packages/apps/HTMLViewer/
+ed791de Automatic translation import
+
+   * packages/apps/LockClock/
+c6d8d03 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+886e7ce Automatic translation import
+
+   * packages/apps/PhoneCommon/
+673b0ca Automatic translation import
+
+   * packages/apps/Tag/
+25ee4c5 Automatic translation import
+
+   * packages/apps/TvSettings/
+213a2ca Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+cd62db3 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+0bfe0b6 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+581eab3 Automatic translation import
+
+   * packages/services/Telecomm/
+5f8e16d Automatic translation import
+
+   * system/bt/
+80cca31 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
+
+   * vendor/zuk/
+ca9fa76 Remove libNimsWrap.so
+c083ac4 Remove some unneeded blobs
+10d8e5a acdbdata: Restore old blobs
+e93b215 adreno: Update blobs
+d8d6921 test: add odex files from ZUI 2.5.435.
+034677a thermal-engine.conf is on device repo. Removed duplicate.
+1471d17 Add sensors.maxim-bio.so. Needed by /system/etc/sensors/hals.conf.
+a194384 XML files should start with the root tag
+4416a26 Remove old blobs.
+93d26cb Update all blobs to ZUI 2.5.435.
+a1dc954 Merge remote-tracking branch 'up/n7x-caf' into cm-14.1
+0ef6ec2 Update camera blobs to ZUI 2.5.425. With @18712886438(CallMeSuper) kernel header tips and @Dazzworld blobs we can finally use nougat camera blobs
+
+===================================
+Since Sat Jul 22 14:13:05 UTC 2017
+===================================
+
+
+   * device/qcom/common/
+d1dacc6 power: Add msm8998 hal
+
+   * device/zuk/z2_row/
+9b14fad audio: Improve quality
+9c88cc4 Enable triple framebuffers
+b1dcbbb Partial revert of 05cb7bcea307d86298f3064eed6af5a3dedcfa0b.
+b127f5f noatime implies nodiratime.
+63090f5 Increase CMA, use F2FS for cache and clean up.
+de987c6 Remove zRAM stuff.
+fad77cd audio: Increase levels
+1155636 z2_row: 2nd CPU kryo optimization
+
+   * external/chromium-webview/
+e205b2a Update webview
+
+   * packages/apps/Exchange/
+b17bee6 Automatic translation import
+
+   * packages/apps/Recorder/
+5c6ba77 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+ba9f78f Automatic translation import
+
+   * system/netd/
+b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+53f0e73 Automatic translation import
+
